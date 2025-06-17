@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "EventService.Controllers.EventController",
+    "Method": "CreateEvent",
+    "RelativePath": "api/Event/createEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventData",
+        "Type": "EventService.DTO.RequestDto.CreateEventDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventService.Controllers.EventController",
+    "Method": "GetEvents",
+    "RelativePath": "api/Event/getEvents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventService.Controllers.EventController",
+    "Method": "GetEventsByVenueId",
+    "RelativePath": "api/Event/getEventsByVenueId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "venueId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventService.Controllers.EventController",
+    "Method": "UpdateEvent",
+    "RelativePath": "api/Event/updateEvent",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventData",
+        "Type": "EventService.DTO.RequestDto.CreateEventDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

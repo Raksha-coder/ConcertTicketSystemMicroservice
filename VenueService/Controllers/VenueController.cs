@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using VenueService.common;
 using VenueService.Dto;
 using VenueService.Model;
@@ -6,7 +7,7 @@ using VenueService.Service;
 
 namespace VenueService.Controllers
 {
-
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class VenueController : ControllerBase
@@ -28,8 +29,9 @@ namespace VenueService.Controllers
             return Ok(result);
         }
 
-        [HttpGet("getVenueEventList")]
 
+        [AllowAnonymous]
+        [HttpGet("getVenueEventList")]
         public async Task<IActionResult> GetVenueEventList(Guid venueId)
         {
             if (venueId == Guid.Empty)

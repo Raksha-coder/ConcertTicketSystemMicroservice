@@ -1,0 +1,87 @@
+[
+  {
+    "ContainingType": "TicketService.Controllers.TicketController",
+    "Method": "BuyReservedTicket",
+    "RelativePath": "api/Ticket/buyOrConfirmReservedTicket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "reservationCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketService.Controllers.TicketController",
+    "Method": "cancelReservation",
+    "RelativePath": "api/Ticket/cancelReservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservationCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketService.Controllers.TicketController",
+    "Method": "CreateTicketType",
+    "RelativePath": "api/Ticket/createTicketType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tickets",
+        "Type": "TicketService.Dto.TicketTypeAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketService.Controllers.TicketController",
+    "Method": "PurchaseTicket",
+    "RelativePath": "api/Ticket/purchaseTicket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketService.Controllers.TicketController",
+    "Method": "ReserveTicket",
+    "RelativePath": "api/Ticket/reserveTicket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketTypeId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

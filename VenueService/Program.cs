@@ -1,7 +1,20 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Serilog;
+using SharedLibrary.Token;
+using System.Text;
 using VenueService.Data;
 using VenueService.Repository;
 using VenueService.Service;
+
+
+
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("Log/venue-logs.txt", rollingInterval: RollingInterval.Day)
+    .Enrich.FromLogContext()
+    .CreateLogger();
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +30,29 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Services.AddScoped<IVenueRepository, VenueRepository>();
-builder.Services.AddScoped<IVenueService, VenueServices>();
+builder.Services.AddHttpClient<IVenueService, VenueServices>();
+
+builder.Logging.ClearProviders();
+builder.Host.UseSerilog();
+
+
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer", options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
+
+builder.Services.AddHttpClient<TokenProvider>(); // This gives it HttpClient
+builder.Services.AddScoped<TokenProvider>();
+
 
 var app = builder.Build();
 
@@ -30,6 +65,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

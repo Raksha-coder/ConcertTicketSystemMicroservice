@@ -27,3 +27,35 @@ C:\Users\HP\OneDrive\Desktop\Home code\all Programming Language codes\Microservi
 C:\Users\HP\OneDrive\Desktop\Home code\all Programming Language codes\Microservice\New folder\ConcertTicketMicroserviceSystem\YarpGateway\obj\Debug\net8.0\YarpGateway.pdb
 C:\Users\HP\OneDrive\Desktop\Home code\all Programming Language codes\Microservice\New folder\ConcertTicketMicroserviceSystem\YarpGateway\obj\Debug\net8.0\YarpGateway.genruntimeconfig.cache
 C:\Users\HP\OneDrive\Desktop\Home code\all Programming Language codes\Microservice\New folder\ConcertTicketMicroserviceSystem\YarpGateway\obj\Debug\net8.0\ref\YarpGateway.dll
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\bin\Debug\net8.0\appsettings.Development.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\bin\Debug\net8.0\appsettings.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\bin\Debug\net8.0\YarpGateway.staticwebassets.endpoints.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\bin\Debug\net8.0\YarpGateway.exe
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\bin\Debug\net8.0\YarpGateway.deps.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\bin\Debug\net8.0\YarpGateway.runtimeconfig.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\bin\Debug\net8.0\YarpGateway.dll
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\bin\Debug\net8.0\YarpGateway.pdb
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\bin\Debug\net8.0\System.IO.Hashing.dll
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\YarpGateway.csproj.AssemblyReference.cache
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\YarpGateway.GeneratedMSBuildEditorConfig.editorconfig
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\YarpGateway.AssemblyInfoInputs.cache
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\YarpGateway.AssemblyInfo.cs
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\YarpGateway.csproj.CoreCompileInputs.cache
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\YarpGateway.MvcApplicationPartsAssemblyInfo.cache
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\scopedcss\bundle\YarpGateway.styles.css
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\staticwebassets.build.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\staticwebassets.development.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\YarpGate.7B3C040B.Up2Date
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\YarpGateway.dll
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\refint\YarpGateway.dll
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\YarpGateway.pdb
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\YarpGateway.genruntimeconfig.cache
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\YarpGateway\obj\Debug\net8.0\ref\YarpGateway.dll

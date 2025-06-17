@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "ConcertTicket",
+    "Projects": [
+      {
+        "Path": "EventService\\EventService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "VenueService\\VenueService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TicketService\\TicketService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "YarpGateway\\YarpGateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AuthenticationService\\AuthenticationService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

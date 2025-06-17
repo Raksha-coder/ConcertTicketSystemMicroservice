@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "2ymfN1A0ZIFO9P5zG04yxytR7IxaqIn4wrWOavzWH2Q=",
-  "Source": "VenueService",
-  "BasePath": "_content/VenueService",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"3aRWqQbNUDrw3k8PFj7WdMTDzbEYNMxmHCzjgwIN//Y=","Source":"VenueService","BasePath":"_content/VenueService","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

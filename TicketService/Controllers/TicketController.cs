@@ -1,4 +1,5 @@
 ﻿using Azure.Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TicketService.common;
 using TicketService.Dto;
@@ -7,6 +8,7 @@ using TicketService.Service;
 
 namespace TicketService.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class TicketController : ControllerBase

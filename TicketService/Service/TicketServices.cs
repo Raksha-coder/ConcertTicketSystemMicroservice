@@ -1,4 +1,5 @@
-﻿using TicketService.common;
+﻿using Microsoft.Extensions.Logging;
+using TicketService.common;
 using TicketService.Dto;
 using TicketService.Model;
 using TicketService.Repository;
@@ -8,10 +9,12 @@ namespace TicketService.Service
     public class TicketServices : ITicketService
     {
         private readonly ITicketRepository  _ticketrepository;
+        private readonly ILogger<TicketServices> _logger;
 
-        public TicketServices(ITicketRepository ticketRepository)
+        public TicketServices(ITicketRepository ticketRepository, ILogger<TicketServices> logger)
         {
             _ticketrepository = ticketRepository;
+            _logger = logger;
         }
 
 
@@ -63,6 +66,7 @@ namespace TicketService.Service
             }
             catch(Exception ex)
             {
+                _logger.LogError("An unexpected error occurred :{ex}", ex.Message);
                 return new ResponseBody(false, $"An unexpected error occurred: {ex.Message}");
             }
         }
@@ -109,6 +113,7 @@ namespace TicketService.Service
             }
             catch (Exception ex)
             {
+                _logger.LogError("An unexpected error occurred :{ex}", ex.Message);
                 return new ResponseBody(false, $"An unexpected error occurred: {ex.Message}");
             }
         }
@@ -130,6 +135,7 @@ namespace TicketService.Service
                 }
                 else
                 {
+                    _logger.LogInformation("Ticket has already sold out.");
                     return new ResponseBody(false, "Ticket has already sold out");
                 }
 
@@ -137,6 +143,7 @@ namespace TicketService.Service
             }
             catch (Exception ex)
             {
+                _logger.LogError("An unexpected error occurred :{ex}", ex.Message);
                 return new ResponseBody(false, $"An unexpected error occurred: {ex.Message}");
             }
         }
@@ -150,6 +157,7 @@ namespace TicketService.Service
 
             if(ticket == null)
             {
+                _logger.LogInformation($"Data not found with given id {ticketId}");
                 return new ResponseBody(false, "Data not found with given id");
             }
 
@@ -159,13 +167,12 @@ namespace TicketService.Service
                 return new ResponseBody(false, "reservation code is not valid or else ticket is purchased");
             }
 
-            ticket.IsPurchased = true;
+                ticket.IsPurchased = true;
                 ticket.ReservationCode = string.Empty;
                 ticket.ReservationExpiresAt = null;
 
                 var result = await _ticketrepository.UpdateTicket(ticket);
                 return result;
-
 
         }
 

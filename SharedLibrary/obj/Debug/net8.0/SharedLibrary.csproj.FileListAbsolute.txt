@@ -1,0 +1,12 @@
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\bin\Debug\net8.0\SharedLibrary.deps.json
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\bin\Debug\net8.0\SharedLibrary.dll
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\bin\Debug\net8.0\SharedLibrary.pdb
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\obj\Debug\net8.0\SharedLibrary.csproj.AssemblyReference.cache
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\obj\Debug\net8.0\SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\obj\Debug\net8.0\SharedLibrary.AssemblyInfoInputs.cache
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\obj\Debug\net8.0\SharedLibrary.AssemblyInfo.cs
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\obj\Debug\net8.0\SharedLibrary.csproj.CoreCompileInputs.cache
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\obj\Debug\net8.0\SharedLibrary.dll
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\obj\Debug\net8.0\refint\SharedLibrary.dll
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\obj\Debug\net8.0\SharedLibrary.pdb
+E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\SharedLibrary\obj\Debug\net8.0\ref\SharedLibrary.dll

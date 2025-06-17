@@ -1,10 +1,12 @@
 ﻿using EventService.common;
 using EventService.DTO.RequestDto;
 using EventService.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EventService.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class EventController : ControllerBase
@@ -50,17 +52,17 @@ namespace EventService.Controllers
 
 
 
-        //get all events based on venueId 
+        //get all events based on venueId
 
-        //[HttpGet("getEventsByVenueId")]
-        //public async Task<IActionResult> GetEventsByVenueId(Guid venueId)
-        //{
-        //    if (venueId == Guid.Empty)
-        //        return BadRequest(new ResponseBody(false, "Please provide valid venue"));
+        [HttpGet("getEventsByVenueId")]
+        public async Task<IActionResult> GetEventsByVenueId(Guid venueId)
+        {
+            if (venueId == Guid.Empty)
+                return BadRequest(new ResponseBody(false, "Please provide valid venue"));
 
-        //    var venueEventList = await _eventService.GetAllEventsByVenueId(venueId);
+            var venueEventList = await _eventService.GetAllEventsByVenueId(venueId);
 
-        //    return Ok(venueEventList);
-        //}
+            return Ok(venueEventList);
+        }
     }
 }

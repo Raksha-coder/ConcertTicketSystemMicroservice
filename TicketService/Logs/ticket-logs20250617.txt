@@ -1,0 +1,80 @@
+2025-06-17 13:02:17.640 +05:30 [INF] Now listening on: http://localhost:5072
+2025-06-17 13:02:17.770 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 13:02:17.772 +05:30 [INF] Hosting environment: Development
+2025-06-17 13:02:17.773 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\TicketService
+2025-06-17 13:02:18.413 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2025-06-17 13:02:18.785 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 374.5758ms
+2025-06-17 13:02:18.797 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 13:02:18.809 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 12.0811ms
+2025-06-17 13:02:18.815 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2025-06-17 13:02:18.854 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.4211ms
+2025-06-17 13:02:18.907 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2025-06-17 13:02:18.915 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.9092ms
+2025-06-17 15:47:53.776 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 15:47:54.134 +05:30 [INF] Now listening on: http://localhost:5072
+2025-06-17 15:47:54.295 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 15:47:54.298 +05:30 [INF] Hosting environment: Development
+2025-06-17 15:47:54.298 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\TicketService
+2025-06-17 15:47:55.198 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2025-06-17 15:47:55.481 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 285.6813ms
+2025-06-17 15:47:55.509 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2025-06-17 15:47:55.509 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 15:47:55.526 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 17.0193ms
+2025-06-17 15:47:55.595 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.7776ms
+2025-06-17 15:47:55.636 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2025-06-17 15:47:55.647 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.2245ms
+2025-06-17 15:48:31.556 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2025-06-17 15:48:31.570 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 14.2106ms
+2025-06-17 15:48:31.578 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 15:48:31.578 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2025-06-17 15:48:31.581 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.4085ms
+2025-06-17 15:48:31.596 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.286ms
+2025-06-17 15:48:31.634 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2025-06-17 15:48:31.641 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.9451ms
+2025-06-17 15:48:38.527 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2025-06-17 15:48:38.542 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 14.9404ms
+2025-06-17 15:48:38.554 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 15:48:38.554 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2025-06-17 15:48:38.557 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 3.164ms
+2025-06-17 15:48:38.572 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.023ms
+2025-06-17 15:48:38.644 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2025-06-17 15:48:38.650 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.0232ms
+2025-06-17 15:51:13.350 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 15:51:13.581 +05:30 [INF] Now listening on: http://localhost:5072
+2025-06-17 15:51:13.726 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 15:51:13.727 +05:30 [INF] Hosting environment: Development
+2025-06-17 15:51:13.728 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\TicketService
+2025-06-17 15:51:14.313 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2025-06-17 15:51:14.522 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 210.4512ms
+2025-06-17 15:51:14.527 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 15:51:14.532 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.1182ms
+2025-06-17 15:51:14.538 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2025-06-17 15:51:14.567 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3026ms
+2025-06-17 15:51:14.628 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2025-06-17 15:51:14.634 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.5326ms
+2025-06-17 17:07:29.901 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 17:07:30.111 +05:30 [INF] Now listening on: http://localhost:5072
+2025-06-17 17:07:30.205 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 17:07:30.206 +05:30 [INF] Hosting environment: Development
+2025-06-17 17:07:30.207 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\TicketService
+2025-06-17 17:07:30.778 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2025-06-17 17:07:31.036 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 259.651ms
+2025-06-17 17:07:31.041 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2025-06-17 17:07:31.043 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 17:07:31.052 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.2853ms
+2025-06-17 17:07:31.096 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.2204ms
+2025-06-17 17:07:31.148 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2025-06-17 17:07:31.156 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.1888ms
+2025-06-17 17:11:40.940 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 17:11:41.182 +05:30 [INF] Now listening on: http://localhost:5072
+2025-06-17 17:11:41.315 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 17:11:41.317 +05:30 [INF] Hosting environment: Development
+2025-06-17 17:11:41.318 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\TicketService
+2025-06-17 17:11:42.206 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2025-06-17 17:11:42.577 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 371.8531ms
+2025-06-17 17:11:42.585 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2025-06-17 17:11:42.593 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 17:11:42.615 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 21.8207ms
+2025-06-17 17:11:42.644 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.34ms
+2025-06-17 17:11:42.683 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2025-06-17 17:11:42.691 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.4316ms

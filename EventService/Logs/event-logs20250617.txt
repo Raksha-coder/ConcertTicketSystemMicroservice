@@ -1,0 +1,168 @@
+2025-06-17 13:02:17.256 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-17 13:02:17.380 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 13:02:17.381 +05:30 [INF] Hosting environment: Development
+2025-06-17 13:02:17.382 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\EventService
+2025-06-17 13:02:18.008 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-17 13:02:18.325 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 326.594ms
+2025-06-17 13:02:18.385 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 13:02:18.391 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.8314ms
+2025-06-17 13:02:18.412 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-17 13:02:18.455 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.675ms
+2025-06-17 13:02:18.770 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-17 13:02:18.778 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.2338ms
+2025-06-17 13:03:05.924 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/getEvents - text/plain 297
+2025-06-17 13:03:05.937 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-17 13:03:05.941 +05:30 [INF] Executing endpoint 'EventService.Controllers.EventController.GetEvents (EventService)'
+2025-06-17 13:03:05.961 +05:30 [INF] Route matched with {action = "GetEvents", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEvents() on controller EventService.Controllers.EventController (EventService).
+2025-06-17 13:03:16.513 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[Description], [e].[EndTime], [e].[Name], [e].[StartTime], [e].[VenueId]
+FROM [Events] AS [e]
+2025-06-17 13:03:16.575 +05:30 [INF] Fetch Events Successfully at "2025-06-17T07:33:16.5751658Z"
+2025-06-17 13:03:16.585 +05:30 [INF] Executing OkObjectResult, writing value of type 'EventService.common.ResponseBody'.
+2025-06-17 13:03:16.602 +05:30 [INF] Executed action EventService.Controllers.EventController.GetEvents (EventService) in 10636.7443ms
+2025-06-17 13:03:16.605 +05:30 [INF] Executed endpoint 'EventService.Controllers.EventController.GetEvents (EventService)'
+2025-06-17 13:03:16.612 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEvents - 200 null application/json; charset=utf-8 10688.9656ms
+2025-06-17 13:05:06.391 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=a3f31984-22bd-4616-922d-bb5072cf69ae - null null
+2025-06-17 13:05:06.398 +05:30 [INF] Executing endpoint 'EventService.Controllers.EventController.GetEventsByVenueId (EventService)'
+2025-06-17 13:05:06.406 +05:30 [INF] Route matched with {action = "GetEventsByVenueId", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEventsByVenueId(System.Guid) on controller EventService.Controllers.EventController (EventService).
+2025-06-17 13:05:06.540 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[@__Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[Description], [e].[EndTime], [e].[Name], [e].[StartTime], [e].[VenueId]
+FROM [Events] AS [e]
+WHERE [e].[VenueId] = @__Id_0
+2025-06-17 13:05:06.544 +05:30 [INF] Fetch Events Successfully at "2025-06-17T07:35:06.5440744Z"
+2025-06-17 13:05:06.545 +05:30 [INF] Executing OkObjectResult, writing value of type 'EventService.common.ResponseBody'.
+2025-06-17 13:05:06.546 +05:30 [INF] Executed action EventService.Controllers.EventController.GetEventsByVenueId (EventService) in 138.252ms
+2025-06-17 13:05:06.548 +05:30 [INF] Executed endpoint 'EventService.Controllers.EventController.GetEventsByVenueId (EventService)'
+2025-06-17 13:05:06.549 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=a3f31984-22bd-4616-922d-bb5072cf69ae - 200 null application/json; charset=utf-8 158.2364ms
+2025-06-17 13:06:10.522 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - text/plain 305
+2025-06-17 13:06:10.527 +05:30 [INF] Executing endpoint 'EventService.Controllers.EventController.GetEventsByVenueId (EventService)'
+2025-06-17 13:06:10.527 +05:30 [INF] Route matched with {action = "GetEventsByVenueId", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEventsByVenueId(System.Guid) on controller EventService.Controllers.EventController (EventService).
+2025-06-17 13:06:10.587 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[Description], [e].[EndTime], [e].[Name], [e].[StartTime], [e].[VenueId]
+FROM [Events] AS [e]
+WHERE [e].[VenueId] = @__Id_0
+2025-06-17 13:06:10.592 +05:30 [INF] Fetch Events Successfully at "2025-06-17T07:36:10.5925683Z"
+2025-06-17 13:06:10.593 +05:30 [INF] Executing OkObjectResult, writing value of type 'EventService.common.ResponseBody'.
+2025-06-17 13:06:10.594 +05:30 [INF] Executed action EventService.Controllers.EventController.GetEventsByVenueId (EventService) in 65.0082ms
+2025-06-17 13:06:10.595 +05:30 [INF] Executed endpoint 'EventService.Controllers.EventController.GetEventsByVenueId (EventService)'
+2025-06-17 13:06:10.596 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - 200 null application/json; charset=utf-8 101.8842ms
+2025-06-17 13:06:13.595 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - text/plain 305
+2025-06-17 13:06:13.598 +05:30 [INF] Executing endpoint 'EventService.Controllers.EventController.GetEventsByVenueId (EventService)'
+2025-06-17 13:06:13.598 +05:30 [INF] Route matched with {action = "GetEventsByVenueId", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEventsByVenueId(System.Guid) on controller EventService.Controllers.EventController (EventService).
+2025-06-17 13:06:13.604 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[Description], [e].[EndTime], [e].[Name], [e].[StartTime], [e].[VenueId]
+FROM [Events] AS [e]
+WHERE [e].[VenueId] = @__Id_0
+2025-06-17 13:06:13.606 +05:30 [INF] Fetch Events Successfully at "2025-06-17T07:36:13.6063999Z"
+2025-06-17 13:06:13.607 +05:30 [INF] Executing OkObjectResult, writing value of type 'EventService.common.ResponseBody'.
+2025-06-17 13:06:13.608 +05:30 [INF] Executed action EventService.Controllers.EventController.GetEventsByVenueId (EventService) in 6.5795ms
+2025-06-17 13:06:13.609 +05:30 [INF] Executed endpoint 'EventService.Controllers.EventController.GetEventsByVenueId (EventService)'
+2025-06-17 13:06:13.610 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - 200 null application/json; charset=utf-8 14.7506ms
+2025-06-17 15:47:52.980 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 15:47:53.348 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-17 15:47:53.437 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 15:47:53.438 +05:30 [INF] Hosting environment: Development
+2025-06-17 15:47:53.439 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\EventService
+2025-06-17 15:47:54.427 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-17 15:47:54.701 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 284.4461ms
+2025-06-17 15:47:54.709 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 15:47:54.714 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 4.5867ms
+2025-06-17 15:47:54.729 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-17 15:47:54.932 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 202.7451ms
+2025-06-17 15:47:54.966 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-17 15:47:54.976 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.2345ms
+2025-06-17 15:48:10.006 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - text/plain 305
+2025-06-17 15:48:10.012 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-17 15:48:10.149 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-17 15:48:10.154 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-17 15:48:10.155 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - 401 0 null 150.3454ms
+2025-06-17 15:48:30.648 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-17 15:48:30.658 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 10.5966ms
+2025-06-17 15:48:30.665 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 15:48:30.665 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-17 15:48:30.667 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.3177ms
+2025-06-17 15:48:30.676 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.3387ms
+2025-06-17 15:48:30.719 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-17 15:48:30.724 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.1595ms
+2025-06-17 15:48:38.192 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-17 15:48:38.203 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 10.9566ms
+2025-06-17 15:48:38.209 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 15:48:38.210 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-17 15:48:38.212 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.4123ms
+2025-06-17 15:48:38.217 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.5261ms
+2025-06-17 15:48:38.268 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-17 15:48:38.273 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.9074ms
+2025-06-17 15:48:41.550 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - text/plain 305
+2025-06-17 15:48:41.556 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-17 15:48:41.558 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-17 15:48:41.560 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - 401 0 null 9.5555ms
+2025-06-17 15:48:42.904 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - text/plain 305
+2025-06-17 15:48:42.908 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-17 15:48:42.909 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-17 15:48:42.910 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - 401 0 null 6.4543ms
+2025-06-17 15:48:45.294 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - text/plain 305
+2025-06-17 15:48:45.298 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-17 15:48:45.299 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-17 15:48:45.300 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - 401 0 null 5.7176ms
+2025-06-17 15:51:13.012 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 15:51:13.373 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-17 15:51:13.501 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 15:51:13.503 +05:30 [INF] Hosting environment: Development
+2025-06-17 15:51:13.504 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\EventService
+2025-06-17 15:51:14.397 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-17 15:51:14.588 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 201.7404ms
+2025-06-17 15:51:14.591 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-17 15:51:14.593 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 15:51:14.600 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.5183ms
+2025-06-17 15:51:14.624 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.946ms
+2025-06-17 15:51:14.680 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-17 15:51:14.686 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.694ms
+2025-06-17 15:51:21.571 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - text/plain 305
+2025-06-17 15:51:21.578 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-17 15:51:21.699 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-17 15:51:21.703 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-17 15:51:21.704 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=1B10CF55-985F-4484-AB67-CF8F39229471 - 401 0 null 134.0216ms
+2025-06-17 17:07:27.988 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 17:07:28.269 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-17 17:07:28.372 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 17:07:28.374 +05:30 [INF] Hosting environment: Development
+2025-06-17 17:07:28.375 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\EventService
+2025-06-17 17:07:29.134 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-17 17:07:29.484 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 358.6504ms
+2025-06-17 17:07:29.532 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 17:07:29.536 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-17 17:07:29.629 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 97.48ms
+2025-06-17 17:07:29.720 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 183.869ms
+2025-06-17 17:07:29.772 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-17 17:07:29.818 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.2428ms
+2025-06-17 17:11:40.510 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 17:11:40.857 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-17 17:11:41.010 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 17:11:41.012 +05:30 [INF] Hosting environment: Development
+2025-06-17 17:11:41.013 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\ConcertTicketSystemMicroservice-main\EventService
+2025-06-17 17:11:41.874 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-17 17:11:42.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 241.0296ms
+2025-06-17 17:11:42.160 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-17 17:11:42.169 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 9.3993ms
+2025-06-17 17:11:42.169 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-17 17:11:42.222 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.8676ms
+2025-06-17 17:11:42.287 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-17 17:11:42.302 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.3631ms
+2025-06-17 17:20:31.838 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=a3f31984-22bd-4616-922d-bb5072cf69ae - null null
+2025-06-17 17:20:31.847 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-17 17:20:32.033 +05:30 [INF] Executing endpoint 'EventService.Controllers.EventController.GetEventsByVenueId (EventService)'
+2025-06-17 17:20:32.056 +05:30 [INF] Route matched with {action = "GetEventsByVenueId", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEventsByVenueId(System.Guid) on controller EventService.Controllers.EventController (EventService).
+2025-06-17 17:20:33.241 +05:30 [INF] Executed DbCommand (39ms) [Parameters=[@__Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[Description], [e].[EndTime], [e].[Name], [e].[StartTime], [e].[VenueId]
+FROM [Events] AS [e]
+WHERE [e].[VenueId] = @__Id_0
+2025-06-17 17:20:33.309 +05:30 [INF] Fetch Events Successfully at "2025-06-17T11:50:33.3094564Z"
+2025-06-17 17:20:33.317 +05:30 [INF] Executing OkObjectResult, writing value of type 'EventService.common.ResponseBody'.
+2025-06-17 17:20:33.335 +05:30 [INF] Executed action EventService.Controllers.EventController.GetEventsByVenueId (EventService) in 1274.3485ms
+2025-06-17 17:20:33.337 +05:30 [INF] Executed endpoint 'EventService.Controllers.EventController.GetEventsByVenueId (EventService)'
+2025-06-17 17:20:33.345 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEventsByVenueId?venueId=a3f31984-22bd-4616-922d-bb5072cf69ae - 200 null application/json; charset=utf-8 1512.5143ms

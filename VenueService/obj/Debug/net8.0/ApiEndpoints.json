@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "VenueService.Controllers.VenueController",
+    "Method": "CreateVenue",
+    "RelativePath": "api/Venue/createVenue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "venueData",
+        "Type": "VenueService.Dto.CreateVenueDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VenueService.Controllers.VenueController",
+    "Method": "GetVenueEventList",
+    "RelativePath": "api/Venue/getVenueEventList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "venueId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
