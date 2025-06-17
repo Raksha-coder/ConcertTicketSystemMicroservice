@@ -6,7 +6,7 @@ using System.Text;
 using VenueService.Data;
 using VenueService.Repository;
 using VenueService.Service;
-
+using SharedLibrary.Extensions;
 
 
 Log.Logger = new LoggerConfiguration()
@@ -67,6 +67,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseGlobalException();  //global exception handler 
 
 app.MapControllers();
 

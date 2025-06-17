@@ -6,7 +6,7 @@ using System.Text;
 using TicketService.Data;
 using TicketService.Repository;
 using TicketService.Service;
-
+using SharedLibrary.Extensions;
 
 
 Log.Logger = new LoggerConfiguration()
@@ -64,7 +64,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseGlobalException();  //global exception handler 
 app.MapControllers();
 
 app.Run();

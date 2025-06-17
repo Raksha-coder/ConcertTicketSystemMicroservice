@@ -6,7 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using Serilog;
 using SharedLibrary.Token;
 using System.Text;
-
+using SharedLibrary.Extensions;
 
 
 
@@ -65,7 +65,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseGlobalException();  //global exception handler 
 app.MapControllers();
 
 app.Run();

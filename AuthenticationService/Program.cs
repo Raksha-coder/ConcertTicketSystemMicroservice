@@ -1,5 +1,6 @@
-var builder = WebApplication.CreateBuilder(args);
+using SharedLibrary.Extensions;
 
+var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -19,7 +20,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseGlobalException();  //global exception handler 
 app.MapControllers();
+
 
 app.Run();
