@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YUepQECRnnXK7Zzhfmsi4uR4i5zbdXrh+9PyGhUyJqYDKUHp7jxc5Byy/3BPT9WAtRLlBL40wbF1P84VtfTDEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\OneDrive\\Desktop\\Home code\\all Programming Language codes\\Microservice\\New folder\\ConcertTicketMicroserviceSystem\\YarpGateway\\YarpGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\yarp.reverseproxy\\2.3.0\\yarp.reverseproxy.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
