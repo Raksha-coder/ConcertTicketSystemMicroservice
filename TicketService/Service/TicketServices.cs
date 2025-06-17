@@ -8,7 +8,7 @@ namespace TicketService.Service
 {
     public class TicketServices : ITicketService
     {
-        private readonly ITicketRepository  _ticketrepository;
+        private readonly ITicketRepository _ticketrepository;
         private readonly ILogger<TicketServices> _logger;
 
         public TicketServices(ITicketRepository ticketRepository, ILogger<TicketServices> logger)
@@ -20,55 +20,49 @@ namespace TicketService.Service
 
         public async Task<ResponseBody> CreateTicketType(TicketTypeAddDto ticketTypeData)
         {
-            try
+
+            TicketType ticketType = new TicketType
             {
-                TicketType ticketType = new TicketType
+                Id = Guid.NewGuid(),
+                Name = ticketTypeData.Name,
+                EventId = ticketTypeData.EventId,
+                QuantityAvailable = ticketTypeData.QuantityAvailable,
+                Price = ticketTypeData.Price,
+            };
+
+            if (ticketTypeData.QuantityAvailable <= 0)
+                return new ResponseBody(false, "Please enter valid availability of ticket");
+
+            ResponseBody ticketTypeResult = await _ticketrepository.CreateTicketType(ticketType);
+
+
+            if (ticketTypeResult.Success)
+            {
+                dynamic data = ticketTypeResult.Data;
+                var ticketsList = new List<Ticket>(ticketType.QuantityAvailable) { };
+                for (int i = 1; i <= ticketType.QuantityAvailable; i++)
                 {
-                    Id = Guid.NewGuid(),
-                    Name = ticketTypeData.Name,
-                    EventId = ticketTypeData.EventId,
-                    QuantityAvailable = ticketTypeData.QuantityAvailable,
-                    Price = ticketTypeData.Price,
-                };
-
-                if (ticketTypeData.QuantityAvailable <= 0)
-                    return new ResponseBody(false,"Please enter valid availability of ticket");
-
-                ResponseBody ticketTypeResult = await _ticketrepository.CreateTicketType(ticketType);
-
-
-                if (ticketTypeResult.Success)
-                {
-                    dynamic data = ticketTypeResult.Data;
-                    var ticketsList = new List<Ticket>(ticketType.QuantityAvailable) { };
-                    for (int i=1;i<= ticketType.QuantityAvailable;i++)
+                    ticketsList.Add(new Ticket
                     {
-                        ticketsList.Add(new Ticket 
-                        {  
-                            Id = Guid.NewGuid(),
-                            TicketTypeId = data,
-                            ReservationCode = string.Empty,
-                            IsPurchased = false,
-                            ReservationExpiresAt = null
+                        Id = Guid.NewGuid(),
+                        TicketTypeId = data,
+                        ReservationCode = string.Empty,
+                        IsPurchased = false,
+                        ReservationExpiresAt = null
 
-                        });
-                    }
-
-                    var result = await _ticketrepository.CreateTicketAsync(ticketsList);
-                    return result;
-
+                    });
                 }
-                else
-                {
-                    return ticketTypeResult;
-                }
+
+                var result = await _ticketrepository.CreateTicketAsync(ticketsList);
+                return result;
 
             }
-            catch(Exception ex)
+            else
             {
-                _logger.LogError("An unexpected error occurred :{ex}", ex.Message);
-                return new ResponseBody(false, $"An unexpected error occurred: {ex.Message}");
+                return ticketTypeResult;
             }
+
+
         }
 
         public async Task<ResponseBody> ReserveTicket(Guid ticketTypeId, TimeSpan waitingTime)
@@ -92,60 +86,48 @@ namespace TicketService.Service
                 return reserve_ticket;
             }
 
-        }   
+        }
 
 
         public async Task<ResponseBody> CancelReservation(string reservationCode)
         {
-            try
-            {
-                var ticket = await _ticketrepository.GetTicketByReservationCode(reservationCode);
 
-                if (ticket == null)
-                    return new ResponseBody(false, "you haven't reserve any ticket");
+            var ticket = await _ticketrepository.GetTicketByReservationCode(reservationCode);
 
-                ticket.ReservationCode = string.Empty;
-                ticket.ReservationExpiresAt = null;
+            if (ticket == null)
+                return new ResponseBody(false, "you haven't reserve any ticket");
+
+            ticket.ReservationCode = string.Empty;
+            ticket.ReservationExpiresAt = null;
 
 
-                var result = await _ticketrepository.UpdateTicket(ticket);
-                return result;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError("An unexpected error occurred :{ex}", ex.Message);
-                return new ResponseBody(false, $"An unexpected error occurred: {ex.Message}");
-            }
+            var result = await _ticketrepository.UpdateTicket(ticket);
+            return result;
+
         }
 
         public async Task<ResponseBody> PurchaseTicket(Guid ticketId)
         {
-            try
+
+            var ticket = await _ticketrepository.GetTicketById(ticketId);
+
+            if (ticket == null)
+                return new ResponseBody(false, "please select valid ticket to buy");
+
+            if (!ticket.IsPurchased || string.IsNullOrEmpty(ticket.ReservationCode))
             {
-                var ticket = await _ticketrepository.GetTicketById(ticketId);
-
-                if (ticket == null)
-                    return new ResponseBody(false, "please select valid ticket to buy");
-
-                if(!ticket.IsPurchased || string.IsNullOrEmpty(ticket.ReservationCode))
-                {
-                    ticket.IsPurchased = true;
-                    var result = await _ticketrepository.UpdateTicket(ticket);
-                    return result;
-                }
-                else
-                {
-                    _logger.LogInformation("Ticket has already sold out.");
-                    return new ResponseBody(false, "Ticket has already sold out");
-                }
-
-
+                ticket.IsPurchased = true;
+                var result = await _ticketrepository.UpdateTicket(ticket);
+                return result;
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError("An unexpected error occurred :{ex}", ex.Message);
-                return new ResponseBody(false, $"An unexpected error occurred: {ex.Message}");
+                _logger.LogInformation("Ticket has already sold out.");
+                return new ResponseBody(false, "Ticket has already sold out");
             }
+
+
+
         }
         public async Task<ResponseBody> BuyReservedTicket(Guid ticketId, string reservationCode)
         {
@@ -155,7 +137,7 @@ namespace TicketService.Service
             var ticket = await _ticketrepository.GetTicketById(ticketId);
 
 
-            if(ticket == null)
+            if (ticket == null)
             {
                 _logger.LogInformation($"Data not found with given id {ticketId}");
                 return new ResponseBody(false, "Data not found with given id");
@@ -167,12 +149,12 @@ namespace TicketService.Service
                 return new ResponseBody(false, "reservation code is not valid or else ticket is purchased");
             }
 
-                ticket.IsPurchased = true;
-                ticket.ReservationCode = string.Empty;
-                ticket.ReservationExpiresAt = null;
+            ticket.IsPurchased = true;
+            ticket.ReservationCode = string.Empty;
+            ticket.ReservationExpiresAt = null;
 
-                var result = await _ticketrepository.UpdateTicket(ticket);
-                return result;
+            var result = await _ticketrepository.UpdateTicket(ticket);
+            return result;
 
         }
 

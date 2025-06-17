@@ -20,24 +20,16 @@ namespace VenueService.Service
 
         public async Task<ResponseBody> CreateVenu(CreateVenueDto venueData)
         {
-            try
+            var venue = new Venue
             {
-                var venue = new Venue
-                {
-                    Id = Guid.NewGuid(),
-                    Name = venueData.Name,
-                    Location = venueData.Location,
-                    Capacity = venueData.Capacity,
-                };
+                Id = Guid.NewGuid(),
+                Name = venueData.Name,
+                Location = venueData.Location,
+                Capacity = venueData.Capacity,
+            };
 
-                var result = await _venuerepository.AddVenueAsync(venue);
-                return result;
-            }catch(Exception ex)
-            {
-                _logger.LogError("An unexpected error occurred :{ex}", ex.Message);
-                return new ResponseBody(false, $"An unexpected error occurred: {ex.Message}");
-            }
-  
+            var result = await _venuerepository.AddVenueAsync(venue);
+            return result;
         }
 
         public async Task<ResponseBody> GetVenueEventList(Guid venueId)
@@ -47,40 +39,34 @@ namespace VenueService.Service
             if (venueDetails == null)
                 return new ResponseBody(false, "Venue not found.");
 
-            try
+            _logger.LogInformation("Successfully fetch venue.");
+
+            var token = await _tokenProvider.GetTokenAsync();
+
+            var requestMessage = new HttpRequestMessage(HttpMethod.Get, $"{_eventServiceUrl}={venueId}");
+            requestMessage.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            var response = await _httpClient.SendAsync(requestMessage);
+
+
+            if (response.IsSuccessStatusCode)
             {
-                _logger.LogInformation("Successfully fetch venue.");
+                var json = await response.Content.ReadAsStringAsync();
+                var eventList = JsonConvert.DeserializeObject<GenericResponse<List<EventDto>>>(json);
 
-                var token = await _tokenProvider.GetTokenAsync();
-
-                var requestMessage = new HttpRequestMessage(HttpMethod.Get, $"{_eventServiceUrl}={venueId}");
-                requestMessage.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
-
-                var response = await _httpClient.SendAsync(requestMessage);
-
-
-                if (response.IsSuccessStatusCode)
+                return new ResponseBody(true, "fetch venue successfully", new
                 {
-                    var json = await response.Content.ReadAsStringAsync();
-                    var eventList = JsonConvert.DeserializeObject<GenericResponse<List<EventDto>>>(json);
+                    Venue = venueDetails,
+                    Events = eventList?.Data
+                });
 
-                    return new ResponseBody(true,"fetch venue successfully", new
-                    {
-                        Venue = venueDetails,
-                        Events = eventList?.Data
-                    });
+            }
+            else
+            {
+                _logger.LogWarning("Failed to fetch events from EventService.");
+                return new ResponseBody(false, "Failed to fetch events from EventService.");
+            }
 
-                }
-                else
-                {
-                    _logger.LogWarning("Failed to fetch events from EventService.");
-                    return new ResponseBody(false, "Failed to fetch events from EventService.");
-                }
-            }
-            catch (Exception ex) {
-                _logger.LogError("Error calling EventService :{ex}",ex.Message);
-                return new ResponseBody(false, $"Error calling EventService: {ex.Message}");
-            }
         }
     }
 }
