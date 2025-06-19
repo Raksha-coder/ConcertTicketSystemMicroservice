@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VenueService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed48303091c65fe620078069e8ae61a3fdc1ab2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a66dc07cfbfb9a214bcff6c96910d2f59f5294d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("VenueService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VenueService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
