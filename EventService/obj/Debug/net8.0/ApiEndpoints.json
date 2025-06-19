@@ -43,6 +43,16 @@
   },
   {
     "ContainingType": "EventService.Controllers.EventController",
+    "Method": "ThrowException",
+    "RelativePath": "api/Event/throw",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventService.Controllers.EventController",
     "Method": "UpdateEvent",
     "RelativePath": "api/Event/updateEvent",
     "HttpMethod": "PUT",

@@ -74,3 +74,16 @@
 2025-06-19 12:04:59.191 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.3047ms
 2025-06-19 12:04:59.432 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
 2025-06-19 12:04:59.439 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.8555ms
+2025-06-19 12:14:10.895 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-19 12:14:11.133 +05:30 [INF] Now listening on: http://localhost:5072
+2025-06-19 12:14:11.240 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 12:14:11.242 +05:30 [INF] Hosting environment: Development
+2025-06-19 12:14:11.242 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\new folder vndfv\ConcertTicketSystemMicroservice\TicketService
+2025-06-19 12:14:11.724 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2025-06-19 12:14:12.091 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 369.0655ms
+2025-06-19 12:14:12.173 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-19 12:14:12.188 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 15.2576ms
+2025-06-19 12:14:12.224 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2025-06-19 12:14:12.350 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.0127ms
+2025-06-19 12:14:12.420 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2025-06-19 12:14:12.429 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.2795ms

@@ -64,5 +64,13 @@ namespace EventService.Controllers
 
             return Ok(venueEventList);
         }
+
+
+        //Test if global exception is working or not
+        [HttpGet("throw")]
+        public IActionResult ThrowException()
+        {
+            throw new Exception("Test exception for global middleware");
+        }
     }
 }

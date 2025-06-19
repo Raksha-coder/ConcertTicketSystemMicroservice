@@ -3002,3 +3002,51 @@ FROM [Events] AS [e]
 2025-06-19 12:05:29.258 +05:30 [INF] Executed action EventService.Controllers.EventController.GetEvents (EventService) in 6.3699ms
 2025-06-19 12:05:29.259 +05:30 [INF] Executed endpoint 'EventService.Controllers.EventController.GetEvents (EventService)'
 2025-06-19 12:05:29.260 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/getEvents - 200 null application/json; charset=utf-8 13.9475ms
+2025-06-19 12:14:10.863 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-19 12:14:11.141 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-19 12:14:11.251 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 12:14:11.252 +05:30 [INF] Hosting environment: Development
+2025-06-19 12:14:11.253 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\new folder vndfv\ConcertTicketSystemMicroservice\EventService
+2025-06-19 12:14:11.813 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-19 12:14:12.273 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 470.114ms
+2025-06-19 12:14:12.282 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-19 12:14:12.287 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 5.2345ms
+2025-06-19 12:14:12.291 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-19 12:14:12.342 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.0714ms
+2025-06-19 12:14:12.428 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-19 12:14:12.439 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.0962ms
+2025-06-19 12:14:35.531 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/throw - null null
+2025-06-19 12:14:35.538 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-19 12:14:35.624 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-19 12:14:35.629 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-19 12:14:35.631 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/throw - 401 0 null 101.0013ms
+2025-06-19 12:14:46.342 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/throw - null null
+2025-06-19 12:14:46.420 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/19/2025 6:38:01 AM', Current time (UTC): '6/19/2025 6:44:46 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-19 12:14:46.468 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/19/2025 6:38:01 AM', Current time (UTC): '6/19/2025 6:44:46 AM'.
+2025-06-19 12:14:46.471 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-19 12:14:46.473 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-19 12:14:46.474 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/throw - 401 0 null 131.7582ms
+2025-06-19 12:15:23.190 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/throw - null null
+2025-06-19 12:15:23.197 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/19/2025 6:38:01 AM', Current time (UTC): '6/19/2025 6:45:23 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-19 12:15:23.200 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/19/2025 6:38:01 AM', Current time (UTC): '6/19/2025 6:45:23 AM'.
+2025-06-19 12:15:23.201 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-19 12:15:23.202 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-19 12:15:23.203 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/throw - 401 0 null 13.1949ms
+2025-06-19 12:15:30.734 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/api/Event/throw - null null
+2025-06-19 12:15:30.752 +05:30 [INF] Executing endpoint 'EventService.Controllers.EventController.ThrowException (EventService)'
+2025-06-19 12:15:30.769 +05:30 [INF] Route matched with {action = "ThrowException", controller = "Event"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ThrowException() on controller EventService.Controllers.EventController (EventService).
+2025-06-19 12:15:38.715 +05:30 [INF] Executed action EventService.Controllers.EventController.ThrowException (EventService) in 7940.9921ms
+2025-06-19 12:15:38.718 +05:30 [INF] Executed endpoint 'EventService.Controllers.EventController.ThrowException (EventService)'
+2025-06-19 12:15:38.740 +05:30 [ERR] An unexpected error has been occured : Test exception for global middleware
+2025-06-19 12:15:38.756 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/api/Event/throw - 500 null application/json 8021.9275ms
