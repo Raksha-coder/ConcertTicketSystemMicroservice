@@ -1,0 +1,273 @@
+2025-06-26 15:27:43.527 +05:30 [INF] Executed DbCommand (444ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [UserSystemDb];
+2025-06-26 15:27:43.695 +05:30 [INF] Executed DbCommand (128ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [UserSystemDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-06-26 15:27:43.715 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-26 15:27:43.718 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-06-26 15:27:43.739 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-06-26 15:27:43.821 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-06-26 15:27:43.829 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-26 15:27:43.830 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-26 15:27:43.845 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-26 15:27:43.858 +05:30 [INF] Applying migration '20250626095735_added user service'.
+2025-06-26 15:27:43.877 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Role] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Role] PRIMARY KEY ([Id])
+);
+2025-06-26 15:27:43.881 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [EventPlanners] (
+    [Id] int NOT NULL IDENTITY,
+    [Email] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    [FullName] nvarchar(max) NOT NULL,
+    [RoleId] int NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [ModifiedBy] int NOT NULL,
+    [ModifiedDate] datetime2 NOT NULL,
+    [Status] tinyint NOT NULL,
+    CONSTRAINT [PK_EventPlanners] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EventPlanners_Role_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [Role] ([Id]) ON DELETE CASCADE
+);
+2025-06-26 15:27:43.886 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_EventPlanners_RoleId] ON [EventPlanners] ([RoleId]);
+2025-06-26 15:27:43.892 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250626095735_added user service', N'9.0.6');
+2025-06-26 15:27:43.903 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-06-26 15:46:06.051 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 15:46:06.256 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-06-26 15:46:06.297 +05:30 [INF] Now listening on: https://localhost:7162
+2025-06-26 15:46:06.299 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-26 15:46:06.384 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 15:46:06.386 +05:30 [INF] Hosting environment: Development
+2025-06-26 15:46:06.387 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-26 15:46:10.031 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger - null null
+2025-06-26 15:46:10.133 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger - 301 0 null 102.3789ms
+2025-06-26 15:46:10.136 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2025-06-26 15:46:10.201 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 65.3034ms
+2025-06-26 15:46:10.212 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui-standalone-preset.js - null null
+2025-06-26 15:46:10.212 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui.css - null null
+2025-06-26 15:46:10.212 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui-bundle.js - null null
+2025-06-26 15:46:10.212 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 15:46:10.235 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2025-06-26 15:46:10.244 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 32.0973ms
+2025-06-26 15:46:10.253 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-26 15:46:10.254 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-06-26 15:46:10.257 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui.css - 200 152034 text/css 44.9141ms
+2025-06-26 15:46:10.257 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 45.7689ms
+2025-06-26 15:46:10.271 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-06-26 15:46:10.272 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 60.5932ms
+2025-06-26 15:46:10.281 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.5003ms
+2025-06-26 15:46:10.412 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2025-06-26 15:46:10.421 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.9033ms
+2025-06-26 15:46:10.431 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/favicon-32x32.png - null null
+2025-06-26 15:46:10.434 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-06-26 15:46:10.435 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/favicon-32x32.png - 200 628 image/png 4.8329ms
+2025-06-26 15:50:22.474 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 15:50:22.786 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-26 15:50:22.930 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 15:50:22.932 +05:30 [INF] Hosting environment: Development
+2025-06-26 15:50:22.944 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-26 15:50:23.468 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger - null null
+2025-06-26 15:50:23.598 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger - 301 0 null 130.7688ms
+2025-06-26 15:50:23.605 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-26 15:50:23.684 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 79.1684ms
+2025-06-26 15:50:23.687 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/swagger-ui-bundle.js - null null
+2025-06-26 15:50:23.687 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/swagger-ui-standalone-preset.js - null null
+2025-06-26 15:50:23.688 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/swagger-ui.css - null null
+2025-06-26 15:50:23.714 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 15:50:23.714 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-26 15:50:23.743 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 27.1339ms
+2025-06-26 15:50:23.748 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-26 15:50:23.749 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-06-26 15:50:23.749 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-06-26 15:50:23.755 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/swagger-ui.css - 200 152034 text/css 67.0232ms
+2025-06-26 15:50:23.755 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 68.3899ms
+2025-06-26 15:50:23.757 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 70.1278ms
+2025-06-26 15:50:23.779 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.3969ms
+2025-06-26 15:50:23.926 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-26 15:50:23.932 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.987ms
+2025-06-26 15:50:23.948 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/favicon-32x32.png - null null
+2025-06-26 15:50:23.950 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-06-26 15:50:23.952 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/favicon-32x32.png - 200 628 image/png 3.6598ms
+2025-06-26 15:50:45.994 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5172/api/User/register - null null
+2025-06-26 15:50:45.999 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-26 15:50:46.113 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-06-26 15:50:46.115 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-06-26 15:50:46.117 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5172/api/User/register - 405 0 null 122.5838ms
+2025-06-26 15:51:40.546 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register - application/json 4
+2025-06-26 15:51:40.597 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-26 15:51:40.629 +05:30 [INF] Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-26 15:51:40.640 +05:30 [INF] Executed action UserService.Controllers.UserController.RegisterUser (UserService) in 5.8281ms
+2025-06-26 15:51:40.642 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-26 15:51:40.685 +05:30 [ERR] An unexpected error has been occured : A suitable constructor for type 'UserService.Service.UserServices' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+2025-06-26 15:51:40.742 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register - 500 null application/json 195.6286ms
+2025-06-26 15:52:43.974 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5172/api/User/register - null null
+2025-06-26 15:52:43.981 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-06-26 15:52:43.982 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-06-26 15:52:43.984 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5172/api/User/register - 405 0 null 9.3487ms
+2025-06-26 15:56:02.447 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register
+ - null 0
+2025-06-26 15:56:02.449 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register
+ - 404 0 null 2.4411ms
+2025-06-26 15:56:02.452 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register%0A, Response status code: 404
+2025-06-26 15:56:28.392 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register
+ - application/json 105
+2025-06-26 15:56:28.399 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register
+ - 404 0 null 6.8178ms
+2025-06-26 15:56:28.401 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register%0A, Response status code: 404
+2025-06-26 15:56:41.185 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register/
+ - application/json 105
+2025-06-26 15:56:41.188 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register/
+ - 404 0 null 2.3129ms
+2025-06-26 15:56:41.190 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register/%0A, Response status code: 404
+2025-06-26 15:56:45.369 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register
+ - application/json 105
+2025-06-26 15:56:45.372 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register
+ - 404 0 null 2.5039ms
+2025-06-26 15:56:45.375 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register%0A, Response status code: 404
+2025-06-26 16:01:49.632 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 16:01:49.942 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-26 16:01:50.058 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 16:01:50.059 +05:30 [INF] Hosting environment: Development
+2025-06-26 16:01:50.060 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-26 16:01:50.708 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-26 16:01:50.890 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 182.197ms
+2025-06-26 16:01:50.919 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 16:01:50.919 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-26 16:01:50.923 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.7083ms
+2025-06-26 16:01:50.950 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.8008ms
+2025-06-26 16:01:51.068 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-26 16:01:51.077 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.8381ms
+2025-06-26 16:02:14.392 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register - application/json 92
+2025-06-26 16:02:14.399 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-26 16:02:14.515 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-26 16:02:14.536 +05:30 [INF] Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-26 16:02:14.545 +05:30 [INF] Executed action UserService.Controllers.UserController.RegisterUser (UserService) in 3.8583ms
+2025-06-26 16:02:14.547 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-26 16:02:14.600 +05:30 [ERR] An unexpected error has been occured : A suitable constructor for type 'UserService.Service.UserServices' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+2025-06-26 16:02:14.639 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register - 500 null application/json 246.651ms
+2025-06-26 16:03:49.927 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 16:03:50.198 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-26 16:03:50.329 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 16:03:50.332 +05:30 [INF] Hosting environment: Development
+2025-06-26 16:03:50.334 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-26 16:03:51.339 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-26 16:03:51.522 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 185.0955ms
+2025-06-26 16:03:51.532 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 16:03:51.537 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.0469ms
+2025-06-26 16:03:51.542 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-26 16:03:51.578 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.4467ms
+2025-06-26 16:03:51.629 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-26 16:03:51.639 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.7829ms
+2025-06-26 16:05:22.478 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register
+ - application/json 105
+2025-06-26 16:05:22.488 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-26 16:05:22.605 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register
+ - 404 0 null 127.4127ms
+2025-06-26 16:05:22.610 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register%0A, Response status code: 404
+2025-06-26 16:05:43.016 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register - application/json 92
+2025-06-26 16:05:43.022 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-26 16:05:43.045 +05:30 [INF] Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-26 16:05:43.054 +05:30 [INF] Executed action UserService.Controllers.UserController.RegisterUser (UserService) in 3.8459ms
+2025-06-26 16:05:43.057 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-26 16:05:43.095 +05:30 [ERR] An unexpected error has been occured : A suitable constructor for type 'UserService.Service.UserServices' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+2025-06-26 16:05:43.136 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register - 500 null application/json 119.9189ms
+2025-06-26 16:10:06.832 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register
+ - application/json 105
+2025-06-26 16:10:06.840 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register
+ - 404 0 null 7.6355ms
+2025-06-26 16:10:06.843 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register%0A, Response status code: 404
+2025-06-26 16:15:36.195 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 16:15:36.439 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-26 16:15:36.552 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 16:15:36.554 +05:30 [INF] Hosting environment: Development
+2025-06-26 16:15:36.555 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-26 16:15:36.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-26 16:15:37.071 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 191.4664ms
+2025-06-26 16:15:37.079 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 16:15:37.085 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.4531ms
+2025-06-26 16:15:37.092 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-26 16:15:37.124 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.8081ms
+2025-06-26 16:15:37.179 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-26 16:15:37.188 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.1596ms
+2025-06-26 16:15:43.046 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register
+ - application/json 105
+2025-06-26 16:15:43.052 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-26 16:15:43.174 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register
+ - 404 0 null 127.9292ms
+2025-06-26 16:15:43.178 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register%0A, Response status code: 404
+2025-06-26 16:15:44.809 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register
+ - application/json 105
+2025-06-26 16:15:44.814 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register
+ - 404 0 null 4.7651ms
+2025-06-26 16:15:44.817 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register%0A, Response status code: 404
+2025-06-26 16:15:46.051 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register
+ - application/json 105
+2025-06-26 16:15:46.055 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register
+ - 404 0 null 4.8358ms
+2025-06-26 16:15:46.059 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register%0A, Response status code: 404
+2025-06-26 16:19:10.647 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-26 16:19:10.657 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 9.8143ms
+2025-06-26 16:19:10.669 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-26 16:19:10.669 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 16:19:10.678 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.9804ms
+2025-06-26 16:19:10.685 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.9036ms
+2025-06-26 16:19:10.735 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-26 16:19:10.740 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.2314ms
+2025-06-26 16:20:00.557 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register - application/json 92
+2025-06-26 16:20:00.565 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-26 16:20:00.604 +05:30 [INF] Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-26 16:20:00.612 +05:30 [INF] Executed action UserService.Controllers.UserController.RegisterUser (UserService) in 3.4452ms
+2025-06-26 16:20:00.614 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-26 16:20:00.667 +05:30 [ERR] An unexpected error has been occured : A suitable constructor for type 'UserService.Service.UserServices' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+2025-06-26 16:20:00.701 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register - 500 null application/json 145.6767ms
+2025-06-26 16:23:33.064 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 16:23:33.406 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-26 16:23:33.568 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 16:23:33.570 +05:30 [INF] Hosting environment: Development
+2025-06-26 16:23:33.571 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-26 16:23:34.059 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-26 16:23:34.368 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 312.5681ms
+2025-06-26 16:23:34.402 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-26 16:23:34.413 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 16:23:34.423 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.0771ms
+2025-06-26 16:23:34.439 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.2137ms
+2025-06-26 16:23:34.507 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-26 16:23:34.519 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.6821ms
+2025-06-26 16:23:42.182 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register
+ - application/json 105
+2025-06-26 16:23:42.311 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register
+ - 404 0 null 128.3001ms
+2025-06-26 16:23:42.317 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register%0A, Response status code: 404
+2025-06-26 16:24:31.210 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register
+ - application/json 105
+2025-06-26 16:24:31.218 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register
+ - 404 0 null 8.2702ms
+2025-06-26 16:24:31.226 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5172/api/User/register%0A, Response status code: 404

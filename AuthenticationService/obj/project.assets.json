@@ -462,6 +462,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.6",
           "Microsoft.Extensions.Hosting.Abstractions": "9.0.6",
@@ -1426,11 +1427,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\backup\\Backup_Files\\Microservice\\new folder vndfv\\ConcertTicketSystemMicroservice\\AuthenticationService\\AuthenticationService.csproj",
+      "projectUniqueName": "E:\\backup\\Backup_Files\\Microservice\\Backend\\ConcertTicketSystemMicroservice\\AuthenticationService\\AuthenticationService.csproj",
       "projectName": "AuthenticationService",
-      "projectPath": "E:\\backup\\Backup_Files\\Microservice\\new folder vndfv\\ConcertTicketSystemMicroservice\\AuthenticationService\\AuthenticationService.csproj",
+      "projectPath": "E:\\backup\\Backup_Files\\Microservice\\Backend\\ConcertTicketSystemMicroservice\\AuthenticationService\\AuthenticationService.csproj",
       "packagesPath": "C:\\Users\\rakshajaiswal\\.nuget\\packages\\",
-      "outputPath": "E:\\backup\\Backup_Files\\Microservice\\new folder vndfv\\ConcertTicketSystemMicroservice\\AuthenticationService\\obj\\",
+      "outputPath": "E:\\backup\\Backup_Files\\Microservice\\Backend\\ConcertTicketSystemMicroservice\\AuthenticationService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1451,8 +1452,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\backup\\Backup_Files\\Microservice\\new folder vndfv\\ConcertTicketSystemMicroservice\\SharedLibrary\\SharedLibrary.csproj": {
-              "projectPath": "E:\\backup\\Backup_Files\\Microservice\\new folder vndfv\\ConcertTicketSystemMicroservice\\SharedLibrary\\SharedLibrary.csproj"
+            "E:\\backup\\Backup_Files\\Microservice\\Backend\\ConcertTicketSystemMicroservice\\SharedLibrary\\SharedLibrary.csproj": {
+              "projectPath": "E:\\backup\\Backup_Files\\Microservice\\Backend\\ConcertTicketSystemMicroservice\\SharedLibrary\\SharedLibrary.csproj"
             }
           }
         }

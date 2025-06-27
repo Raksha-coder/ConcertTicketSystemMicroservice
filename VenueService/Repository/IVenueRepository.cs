@@ -1,4 +1,5 @@
 ﻿using VenueService.common;
+using VenueService.Dto;
 using VenueService.Model;
 
 namespace VenueService.Repository
@@ -7,6 +8,7 @@ namespace VenueService.Repository
     {
         Task<ResponseBody> AddVenueAsync(Venue venue);
         Task<Venue?> GetVenue(Guid venueId);
+        Task<List<GetAllVenueDto>> getVenueListAsync();
 
     }
 }

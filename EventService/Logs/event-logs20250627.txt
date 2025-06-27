@@ -1,0 +1,432 @@
+2025-06-27 10:56:29.208 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 10:56:29.611 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 10:56:29.736 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 10:56:29.738 +05:30 [INF] Hosting environment: Development
+2025-06-27 10:56:29.739 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 10:56:31.715 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 10:56:32.074 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 367.6144ms
+2025-06-27 10:56:32.214 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 10:56:32.235 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 10:56:32.247 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 34.0666ms
+2025-06-27 10:56:32.634 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 399.105ms
+2025-06-27 10:56:33.517 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 10:56:33.534 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.5659ms
+2025-06-27 11:00:08.398 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 11:00:08.872 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 11:00:09.039 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 11:00:09.061 +05:30 [INF] Hosting environment: Development
+2025-06-27 11:00:09.063 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 11:00:09.562 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 11:00:09.886 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 333.6313ms
+2025-06-27 11:00:09.932 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 11:00:09.932 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 11:00:09.945 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 13.8482ms
+2025-06-27 11:00:09.997 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.2086ms
+2025-06-27 11:00:10.090 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 11:00:10.103 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.6646ms
+2025-06-27 13:03:44.259 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 13:03:45.339 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 13:03:45.521 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 13:03:45.522 +05:30 [INF] Hosting environment: Development
+2025-06-27 13:03:45.547 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 13:03:46.478 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 13:03:47.076 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 610.2807ms
+2025-06-27 13:03:47.168 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 13:03:47.180 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 12.7225ms
+2025-06-27 13:03:47.195 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 13:03:47.248 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.7249ms
+2025-06-27 13:03:47.448 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 13:03:47.457 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.8731ms
+2025-06-27 13:19:21.240 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 13:19:21.670 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 13:19:21.781 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 13:19:21.783 +05:30 [INF] Hosting environment: Development
+2025-06-27 13:19:21.784 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 13:19:22.383 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 13:19:22.628 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 254.3045ms
+2025-06-27 13:19:22.668 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 13:19:22.668 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 13:19:22.674 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.3733ms
+2025-06-27 13:19:22.716 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.5789ms
+2025-06-27 13:19:22.807 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 13:19:22.814 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.9816ms
+2025-06-27 14:18:19.338 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 14:18:19.656 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 14:18:19.762 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 14:18:19.764 +05:30 [INF] Hosting environment: Development
+2025-06-27 14:18:19.766 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 14:18:20.795 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 14:18:21.057 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 272.2498ms
+2025-06-27 14:18:21.094 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 14:18:21.094 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 14:18:21.140 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 46.5294ms
+2025-06-27 14:18:21.169 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.3437ms
+2025-06-27 14:18:21.272 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 14:18:21.300 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.3567ms
+2025-06-27 14:32:50.765 +05:30 [INF] Executed DbCommand (337ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [EventSystemDb];
+2025-06-27 14:32:50.857 +05:30 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [EventSystemDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-06-27 14:32:50.925 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-27 14:32:50.928 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-06-27 14:32:50.943 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-06-27 14:32:50.995 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-06-27 14:32:51.002 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-27 14:32:51.003 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-27 14:32:51.011 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-27 14:32:51.018 +05:30 [INF] Applying migration '20250627090242_initial setup of Event'.
+2025-06-27 14:32:51.027 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Events] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(200) NOT NULL,
+    [Date] datetime2 NOT NULL,
+    [StartTime] datetime2 NOT NULL,
+    [EndTime] datetime2 NOT NULL,
+    [Description] nvarchar(1000) NOT NULL,
+    [VenueId] uniqueidentifier NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [ModifiedBy] int NOT NULL,
+    [ModifiedDate] datetime2 NOT NULL,
+    [Status] tinyint NOT NULL,
+    [IsActive] int NOT NULL,
+    [IsDeleted] int NOT NULL,
+    CONSTRAINT [PK_Events] PRIMARY KEY ([Id])
+);
+2025-06-27 14:32:51.029 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250627090242_initial setup of Event', N'9.0.6');
+2025-06-27 14:32:51.031 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-06-27 14:48:38.893 +05:30 [INF] Executed DbCommand (330ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [EventSystemDb];
+2025-06-27 14:48:38.987 +05:30 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [EventSystemDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-06-27 14:48:39.001 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-27 14:48:39.004 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-06-27 14:48:39.017 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-06-27 14:48:39.070 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-06-27 14:48:39.076 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-27 14:48:39.077 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-27 14:48:39.085 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-27 14:48:39.093 +05:30 [INF] Applying migration '20250627091833_initial setup of Event'.
+2025-06-27 14:48:39.101 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Events] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(200) NOT NULL,
+    [Date] datetime2 NOT NULL,
+    [StartTime] datetime2 NOT NULL,
+    [EndTime] datetime2 NOT NULL,
+    [Description] nvarchar(1000) NOT NULL,
+    [VenueId] uniqueidentifier NOT NULL,
+    [CreatedBy] int NULL,
+    [CreatedDate] datetime2 NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedDate] datetime2 NULL,
+    [Status] tinyint NOT NULL,
+    [IsActive] int NOT NULL,
+    [IsDeleted] int NOT NULL,
+    CONSTRAINT [PK_Events] PRIMARY KEY ([Id])
+);
+2025-06-27 14:48:39.103 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250627091833_initial setup of Event', N'9.0.6');
+2025-06-27 14:48:39.105 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-06-27 15:00:40.980 +05:30 [INF] Executed DbCommand (218ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [EventSystemDb];
+2025-06-27 15:00:41.070 +05:30 [INF] Executed DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [EventSystemDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-06-27 15:00:41.181 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-27 15:00:41.183 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-06-27 15:00:41.198 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-06-27 15:00:41.248 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-06-27 15:00:41.254 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-27 15:00:41.255 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-27 15:00:41.263 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-27 15:00:41.271 +05:30 [INF] Applying migration '20250627093036_initial setup of Event'.
+2025-06-27 15:00:41.279 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Events] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(200) NOT NULL,
+    [Date] datetime2 NOT NULL,
+    [StartTime] datetime2 NOT NULL,
+    [EndTime] datetime2 NOT NULL,
+    [Description] nvarchar(1000) NOT NULL,
+    [VenueId] uniqueidentifier NOT NULL,
+    [CreatedBy] int NULL,
+    [CreatedDate] datetime2 NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedDate] datetime2 NULL,
+    [Status] tinyint NOT NULL,
+    [IsActive] bit NULL,
+    [IsDeleted] bit NULL,
+    CONSTRAINT [PK_Events] PRIMARY KEY ([Id])
+);
+2025-06-27 15:00:41.282 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250627093036_initial setup of Event', N'9.0.6');
+2025-06-27 15:00:41.284 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-06-27 15:03:29.626 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:03:29.974 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 15:03:30.176 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:03:30.187 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:03:30.215 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 15:03:30.419 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 15:03:30.775 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 366.4754ms
+2025-06-27 15:03:30.810 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 15:03:30.810 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:03:30.818 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.3356ms
+2025-06-27 15:03:30.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.7684ms
+2025-06-27 15:03:30.958 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 15:03:30.969 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.6606ms
+2025-06-27 15:08:42.003 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 15:08:42.028 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 24.5661ms
+2025-06-27 15:08:42.113 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 15:08:42.120 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:08:42.129 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.5125ms
+2025-06-27 15:08:42.141 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.7136ms
+2025-06-27 15:08:42.400 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 15:08:42.407 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.4385ms
+2025-06-27 15:17:33.947 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:17:34.384 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 15:17:34.506 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:17:34.507 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:17:34.509 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 15:17:34.985 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 15:17:35.389 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 427.4573ms
+2025-06-27 15:17:35.468 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 15:17:35.468 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:17:35.477 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 7.7405ms
+2025-06-27 15:17:35.507 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.6537ms
+2025-06-27 15:17:35.594 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 15:17:35.608 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.4838ms
+2025-06-27 15:20:41.246 +05:30 [INF] Executed DbCommand (284ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [EventSystemDb];
+2025-06-27 15:20:41.335 +05:30 [INF] Executed DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [EventSystemDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-06-27 15:20:41.349 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-27 15:20:41.352 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-06-27 15:20:41.366 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-06-27 15:20:41.421 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-06-27 15:20:41.427 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-27 15:20:41.428 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-27 15:20:41.439 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-27 15:20:41.447 +05:30 [INF] Applying migration '20250627095036_initial setup'.
+2025-06-27 15:20:41.456 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Events] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(200) NOT NULL,
+    [Date] datetime2 NOT NULL,
+    [StartTime] datetime2 NOT NULL,
+    [EndTime] datetime2 NOT NULL,
+    [Description] nvarchar(1000) NOT NULL,
+    [VenueId] uniqueidentifier NOT NULL,
+    [CreatedBy] int NULL,
+    [CreatedDate] datetime2 NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedDate] datetime2 NULL,
+    [Status] tinyint NOT NULL,
+    [IsActive] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    CONSTRAINT [PK_Events] PRIMARY KEY ([Id])
+);
+2025-06-27 15:20:41.460 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250627095036_initial setup', N'9.0.6');
+2025-06-27 15:20:41.462 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-06-27 15:21:04.000 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:21:04.257 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 15:21:04.351 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:21:04.353 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:21:04.354 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 15:21:06.047 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 15:21:06.661 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 626.5041ms
+2025-06-27 15:21:06.862 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:21:06.883 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 15:21:06.910 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 48.5537ms
+2025-06-27 15:21:06.978 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.9181ms
+2025-06-27 15:21:07.122 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 15:21:07.150 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.8137ms
+2025-06-27 15:33:08.820 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 15:33:08.849 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 28.6825ms
+2025-06-27 15:33:08.861 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 15:33:08.861 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:33:08.876 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 15.8772ms
+2025-06-27 15:33:08.882 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.8072ms
+2025-06-27 15:33:08.933 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 15:33:08.938 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.6756ms
+2025-06-27 15:44:32.650 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 15:44:32.666 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 15.8356ms
+2025-06-27 15:44:32.683 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 15:44:32.689 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:44:32.706 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.4972ms
+2025-06-27 15:44:32.706 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 17.8306ms
+2025-06-27 15:44:32.959 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 15:44:32.966 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.7831ms
+2025-06-27 15:50:22.355 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 15:50:22.380 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 25.0566ms
+2025-06-27 15:50:22.404 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:50:22.408 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 15:50:22.422 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 17.8315ms
+2025-06-27 15:50:22.439 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.6499ms
+2025-06-27 15:50:22.789 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 15:50:22.794 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.7229ms
+2025-06-27 15:55:51.233 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:55:51.589 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 15:55:51.702 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:55:51.703 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:55:51.704 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 15:55:52.779 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 15:55:53.169 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 399.9976ms
+2025-06-27 15:55:53.285 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:55:53.293 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.5691ms
+2025-06-27 15:55:53.299 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 15:55:53.358 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.5998ms
+2025-06-27 15:55:53.695 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 15:55:53.705 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.3372ms
+2025-06-27 15:58:10.476 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:58:10.874 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 15:58:10.993 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:58:10.994 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:58:10.995 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 15:58:11.754 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 15:58:12.058 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 311.1759ms
+2025-06-27 15:58:12.177 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:58:12.188 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 11.4647ms
+2025-06-27 15:58:12.200 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 15:58:12.255 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.7488ms
+2025-06-27 15:58:12.434 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 15:58:12.445 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.2238ms
+2025-06-27 16:06:01.444 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 16:06:02.115 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 16:06:02.427 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 16:06:02.431 +05:30 [INF] Hosting environment: Development
+2025-06-27 16:06:02.432 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 16:06:03.462 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 16:06:03.807 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 354.0193ms
+2025-06-27 16:06:03.848 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 16:06:03.857 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 16:06:03.882 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 25.284ms
+2025-06-27 16:06:03.897 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.3226ms
+2025-06-27 16:06:04.006 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 16:06:04.015 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.7652ms
+2025-06-27 16:56:30.705 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 16:56:30.726 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 21.0155ms
+2025-06-27 16:56:30.741 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 16:56:30.741 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 16:56:30.744 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 3.109ms
+2025-06-27 16:56:30.764 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.2798ms
+2025-06-27 16:56:30.985 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 16:56:30.990 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.6159ms
+2025-06-27 17:17:26.421 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 17:17:26.438 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 16.7813ms
+2025-06-27 17:17:26.502 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 17:17:26.502 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 17:17:26.505 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.9737ms
+2025-06-27 17:17:26.518 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.6909ms
+2025-06-27 17:17:26.582 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 17:17:26.587 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.9321ms
+2025-06-27 17:31:07.071 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 17:31:07.351 +05:30 [INF] Now listening on: http://localhost:5203
+2025-06-27 17:31:07.465 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 17:31:07.467 +05:30 [INF] Hosting environment: Development
+2025-06-27 17:31:07.468 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\EventService
+2025-06-27 17:31:09.247 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/index.html - null null
+2025-06-27 17:31:09.685 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/index.html - 200 null text/html;charset=utf-8 450.3213ms
+2025-06-27 17:31:09.812 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_vs/browserLink - null null
+2025-06-27 17:31:09.881 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.8014ms
+2025-06-27 17:31:10.001 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 17:31:10.010 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 9.0472ms
+2025-06-27 17:31:10.184 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - null null
+2025-06-27 17:31:10.195 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5203/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.1962ms

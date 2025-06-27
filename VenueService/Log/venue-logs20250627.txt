@@ -1,0 +1,1177 @@
+2025-06-27 10:56:29.211 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 10:56:29.567 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 10:56:29.851 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 10:56:29.854 +05:30 [INF] Hosting environment: Development
+2025-06-27 10:56:29.856 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 10:56:31.892 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 10:56:32.273 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 382.9983ms
+2025-06-27 10:56:32.415 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 10:56:32.421 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 10:56:32.423 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.656ms
+2025-06-27 10:56:32.643 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 222.1606ms
+2025-06-27 10:56:33.689 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 10:56:33.705 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.3684ms
+2025-06-27 11:00:08.468 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 11:00:08.871 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 11:00:09.258 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 11:00:09.304 +05:30 [INF] Hosting environment: Development
+2025-06-27 11:00:09.313 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 11:00:09.553 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 11:00:09.886 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 334.2401ms
+2025-06-27 11:00:09.962 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 11:00:09.962 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 11:00:09.968 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.7618ms
+2025-06-27 11:00:10.008 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.4007ms
+2025-06-27 11:00:10.202 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 11:00:10.214 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.5452ms
+2025-06-27 13:03:44.247 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 13:03:45.240 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 13:03:45.457 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 13:03:45.459 +05:30 [INF] Hosting environment: Development
+2025-06-27 13:03:45.460 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 13:03:46.610 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 13:03:47.111 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 501.6948ms
+2025-06-27 13:03:47.191 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 13:03:47.193 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 13:03:47.197 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.7896ms
+2025-06-27 13:03:47.242 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.0223ms
+2025-06-27 13:03:47.449 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 13:03:47.456 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.2461ms
+2025-06-27 13:04:28.037 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue - null null
+2025-06-27 13:04:28.043 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 13:04:28.106 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue - 404 0 null 69.2376ms
+2025-06-27 13:04:28.112 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5035/api/Venue, Response status code: 404
+2025-06-27 13:04:28.120 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue - null null
+2025-06-27 13:04:28.122 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue - 404 0 null 2.8356ms
+2025-06-27 13:04:28.131 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5035/api/Venue, Response status code: 404
+2025-06-27 13:19:22.088 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 13:19:22.354 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 13:19:22.501 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 13:19:22.502 +05:30 [INF] Hosting environment: Development
+2025-06-27 13:19:22.503 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 13:19:23.230 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 13:19:23.619 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 390.9632ms
+2025-06-27 13:19:23.687 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 13:19:23.688 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 13:19:23.701 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 14.41ms
+2025-06-27 13:19:23.734 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.5229ms
+2025-06-27 13:19:24.053 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 13:19:24.060 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.6658ms
+2025-06-27 14:18:20.502 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 14:18:20.861 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 14:18:20.983 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 14:18:20.985 +05:30 [INF] Hosting environment: Development
+2025-06-27 14:18:20.987 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 14:18:21.845 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 14:18:22.311 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 467.3362ms
+2025-06-27 14:18:22.399 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 14:18:22.406 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.0027ms
+2025-06-27 14:18:22.477 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 14:18:22.521 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.7799ms
+2025-06-27 14:18:22.697 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 14:18:22.712 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.8835ms
+2025-06-27 14:19:49.815 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 14:19:49.822 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 14:19:49.886 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-27 14:19:49.890 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-27 14:19:49.891 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 401 0 null 76.1802ms
+2025-06-27 14:19:49.897 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 14:19:49.903 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-27 14:19:49.905 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-27 14:19:49.906 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 401 0 null 9.5202ms
+2025-06-27 14:23:29.651 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 14:23:29.656 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-27 14:23:29.658 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-27 14:23:29.659 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 401 0 null 10.6638ms
+2025-06-27 14:23:29.667 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 14:23:29.671 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-27 14:23:29.673 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-27 14:23:29.674 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 401 0 null 7.3082ms
+2025-06-27 14:24:57.595 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 14:24:57.652 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 14:24:57.671 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 14:25:17.613 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 14:25:17.616 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 14:25:17.617 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 14:25:22.624 +05:30 [ERR] An error occurred using the connection to database 'VenueSystemDb' on server '(localdb)\mssqllocaldb'.
+2025-06-27 14:25:22.624 +05:30 [ERR] An error occurred using the connection to database 'VenueSystemDb' on server '(localdb)\mssqllocaldb'.
+2025-06-27 14:25:22.678 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'VenueService.Data.VenueDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Cannot create an automatic instance. See the Windows Application event log for error details.
+)
+ ---> System.ComponentModel.Win32Exception (0x89C50118): Unknown error (0x89c50118)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1983577832,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Cannot create an automatic instance. See the Windows Application event log for error details.
+)
+ ---> System.ComponentModel.Win32Exception (0x89C50118): Unknown error (0x89c50118)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1983577832,State:0,Class:20
+2025-06-27 14:25:22.678 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'VenueService.Data.VenueDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Cannot create an automatic instance. See the Windows Application event log for error details.
+)
+ ---> System.ComponentModel.Win32Exception (0x89C50118): Unknown error (0x89c50118)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1983577832,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Cannot create an automatic instance. See the Windows Application event log for error details.
+)
+ ---> System.ComponentModel.Win32Exception (0x89C50118): Unknown error (0x89c50118)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1983577832,State:0,Class:20
+2025-06-27 14:25:22.950 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5329.7194ms
+2025-06-27 14:25:23.015 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 14:25:23.048 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 25375.2191ms
+2025-06-27 14:25:23.112 +05:30 [ERR] An unexpected error has been occured : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Cannot create an automatic instance. See the Windows Application event log for error details.
+)
+2025-06-27 14:25:23.113 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 14:25:23.166 +05:30 [ERR] An unexpected error has been occured : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Cannot create an automatic instance. See the Windows Application event log for error details.
+)
+2025-06-27 14:25:23.216 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 500 null application/json 5603.6484ms
+2025-06-27 14:25:23.216 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 500 null application/json 25621.1855ms
+2025-06-27 15:03:30.709 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:03:31.052 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 15:03:31.181 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:03:31.183 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:03:31.184 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 15:03:32.085 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 15:03:32.359 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 275.8487ms
+2025-06-27 15:03:32.423 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:03:32.430 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 7.0786ms
+2025-06-27 15:03:32.437 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 15:03:32.511 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.3788ms
+2025-06-27 15:03:32.584 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 15:03:32.591 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.1542ms
+2025-06-27 15:08:42.007 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 15:08:42.039 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 32.1022ms
+2025-06-27 15:08:42.117 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 15:08:42.119 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:08:42.131 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 11.8856ms
+2025-06-27 15:08:42.133 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.9415ms
+2025-06-27 15:08:42.250 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 15:08:42.256 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.6384ms
+2025-06-27 15:17:35.502 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:17:35.824 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 15:17:35.932 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:17:35.933 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:17:35.934 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 15:17:36.596 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 15:17:36.909 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 315.1709ms
+2025-06-27 15:17:37.014 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:17:37.035 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 15:17:37.085 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 72.4097ms
+2025-06-27 15:17:37.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.324ms
+2025-06-27 15:17:37.267 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 15:17:37.274 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.4708ms
+2025-06-27 15:18:09.415 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:18:09.422 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 15:18:09.535 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:18:09.553 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:18:12.856 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 3298.2419ms
+2025-06-27 15:18:12.860 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:21:04.599 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:21:04.832 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 15:21:04.951 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:21:04.952 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:21:04.953 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 15:21:05.913 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 15:21:06.566 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 654.1965ms
+2025-06-27 15:21:06.716 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:21:06.730 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 14.4943ms
+2025-06-27 15:21:06.822 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 15:21:06.930 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.8909ms
+2025-06-27 15:21:07.122 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 15:21:07.133 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.8047ms
+2025-06-27 15:22:20.030 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:22:20.036 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 15:22:20.150 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:22:20.170 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:22:25.673 +05:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:22:40.408 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:22:40.413 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:22:40.415 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:22:41.704 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:22:41.719 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:22:42.412 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:22:42.414 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 21548.5768ms
+2025-06-27 15:22:42.414 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1997.7834ms
+2025-06-27 15:22:42.417 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:22:42.418 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:22:42.426 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 2017.306ms
+2025-06-27 15:22:42.426 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 22395.7586ms
+2025-06-27 15:23:54.988 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:23:54.996 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:23:54.997 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:24:10.963 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:24:11.810 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:24:11.812 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 16812.6136ms
+2025-06-27 15:24:11.814 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:24:11.816 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 16829.5605ms
+2025-06-27 15:24:11.825 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:24:11.828 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:24:11.829 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:24:12.963 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:24:13.555 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:24:13.557 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1725.5015ms
+2025-06-27 15:24:13.559 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:24:13.562 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 1736.4322ms
+2025-06-27 15:24:13.566 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:24:13.568 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:24:13.569 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:24:14.227 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:24:14.738 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:24:14.740 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1169.6255ms
+2025-06-27 15:24:14.742 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:24:14.743 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 1176.848ms
+2025-06-27 15:33:09.115 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 15:33:09.132 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 16.7103ms
+2025-06-27 15:33:09.144 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:33:09.144 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 15:33:09.147 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 3.0399ms
+2025-06-27 15:33:09.164 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.7672ms
+2025-06-27 15:33:09.246 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 15:33:09.252 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.1679ms
+2025-06-27 15:44:32.783 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 15:44:32.801 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 17.9972ms
+2025-06-27 15:44:32.884 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:44:32.884 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 15:44:32.887 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.8811ms
+2025-06-27 15:44:32.901 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.3927ms
+2025-06-27 15:44:33.071 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 15:44:33.076 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.0256ms
+2025-06-27 15:45:20.498 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:45:20.506 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:45:20.510 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:45:27.427 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:45:35.550 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:45:35.562 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 15048.6821ms
+2025-06-27 15:45:35.563 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:45:35.565 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 15066.4895ms
+2025-06-27 15:50:22.405 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 15:50:22.431 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 26.7574ms
+2025-06-27 15:50:22.515 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:50:22.516 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 15:50:22.519 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 3.4596ms
+2025-06-27 15:50:22.525 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.5298ms
+2025-06-27 15:50:22.825 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 15:50:22.830 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.1877ms
+2025-06-27 15:50:40.578 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:50:40.581 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:50:40.586 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:50:42.452 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:50:46.181 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:50:46.186 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5597.9576ms
+2025-06-27 15:50:46.188 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:50:46.189 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 5611.0974ms
+2025-06-27 15:50:46.193 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:50:46.196 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:50:46.200 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:50:48.003 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:50:48.822 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:50:48.824 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 2621.6417ms
+2025-06-27 15:50:48.825 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:50:48.827 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 2633.5229ms
+2025-06-27 15:52:53.217 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:52:53.220 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:52:53.221 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:52:54.975 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:52:55.557 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:52:55.558 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 2335.6278ms
+2025-06-27 15:52:55.560 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:52:55.562 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 2344.9943ms
+2025-06-27 15:53:33.359 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:53:33.367 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:53:33.369 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:53:35.224 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:53:35.788 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:53:35.790 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 2419.8027ms
+2025-06-27 15:53:35.791 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:53:35.793 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 2433.5755ms
+2025-06-27 15:55:51.319 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:55:51.604 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 15:55:51.717 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:55:51.718 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:55:51.719 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 15:55:52.902 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 15:55:53.314 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 412.6512ms
+2025-06-27 15:55:53.446 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 15:55:53.446 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:55:53.459 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 9.4337ms
+2025-06-27 15:55:53.494 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.4125ms
+2025-06-27 15:55:53.784 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 15:55:53.794 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.0517ms
+2025-06-27 15:58:10.305 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:58:10.739 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 15:58:10.890 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:58:10.892 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:58:10.893 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 15:58:11.196 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 15:58:11.470 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 274.4089ms
+2025-06-27 15:58:11.515 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:58:11.515 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 15:58:11.521 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.8746ms
+2025-06-27 15:58:11.601 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.7422ms
+2025-06-27 15:58:11.952 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 15:58:11.960 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.1105ms
+2025-06-27 15:58:37.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:58:37.618 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 15:58:37.751 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:58:37.770 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:58:41.358 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:58:42.203 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:58:42.219 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 4444.8086ms
+2025-06-27 15:58:42.222 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:58:42.229 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 4617.9236ms
+2025-06-27 15:58:42.234 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:58:42.239 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:58:42.240 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:58:43.233 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:58:43.851 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:58:43.853 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1610.9354ms
+2025-06-27 15:58:43.854 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:58:43.856 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 1621.9972ms
+2025-06-27 15:59:08.667 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:59:08.674 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:59:08.676 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:59:10.060 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:59:10.535 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:59:10.538 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1860.3215ms
+2025-06-27 15:59:10.540 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:59:10.541 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 1876.0957ms
+2025-06-27 15:59:10.549 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:59:10.552 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:59:10.553 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:59:11.166 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:59:11.659 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:59:11.665 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1109.6729ms
+2025-06-27 15:59:11.667 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:59:11.669 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 1119.263ms
+2025-06-27 15:59:19.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 15:59:19.127 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:59:19.129 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 15:59:20.469 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 15:59:21.165 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 15:59:21.166 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 2035.5075ms
+2025-06-27 15:59:21.168 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 15:59:21.169 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 2045.7904ms
+2025-06-27 16:02:15.964 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:02:15.976 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:02:15.977 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:02:28.155 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:02:28.675 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:02:28.676 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 12698.1763ms
+2025-06-27 16:02:28.679 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:02:28.681 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 12716.7407ms
+2025-06-27 16:02:35.787 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:02:35.791 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:02:35.792 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:02:36.966 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:02:37.762 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:02:37.764 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1970.3529ms
+2025-06-27 16:02:37.766 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:02:37.767 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 1979.6183ms
+2025-06-27 16:02:37.771 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:02:37.773 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:02:37.774 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:02:38.540 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:02:39.093 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:02:39.095 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1319.3944ms
+2025-06-27 16:02:39.097 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:02:39.099 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 1328.0497ms
+2025-06-27 16:02:44.011 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:02:44.014 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:02:44.015 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:02:45.218 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:02:45.778 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:02:45.805 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1788.2509ms
+2025-06-27 16:02:45.807 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:02:45.809 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 1798.3205ms
+2025-06-27 16:02:45.812 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:02:45.814 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:02:45.815 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:02:46.397 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:02:46.894 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:02:46.896 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1079.6024ms
+2025-06-27 16:02:46.898 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:02:46.900 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 1087.6077ms
+2025-06-27 16:06:02.274 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 16:06:02.548 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 16:06:02.650 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 16:06:02.652 +05:30 [INF] Hosting environment: Development
+2025-06-27 16:06:02.652 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 16:06:03.567 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 16:06:03.881 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 315.1977ms
+2025-06-27 16:06:04.006 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 16:06:04.014 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.5204ms
+2025-06-27 16:06:04.087 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 16:06:04.136 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.8624ms
+2025-06-27 16:06:04.426 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 16:06:04.436 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.5788ms
+2025-06-27 16:07:12.565 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:07:12.573 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 16:07:12.707 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:07:12.727 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:07:15.213 +05:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:07:16.123 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:07:16.140 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 3407.3084ms
+2025-06-27 16:07:16.142 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:07:16.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:07:16.150 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:07:16.151 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 3585.4071ms
+2025-06-27 16:07:16.152 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:07:16.859 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:07:17.506 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:07:17.508 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 1351.9409ms
+2025-06-27 16:07:17.510 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:07:17.512 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 1366.1707ms
+2025-06-27 16:07:59.044 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:07:59.054 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:07:59.055 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:08:53.428 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:08:53.431 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:08:53.433 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 54375.2527ms
+2025-06-27 16:08:53.434 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:08:53.436 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 54391.452ms
+2025-06-27 16:12:48.951 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:12:48.954 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:12:48.955 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:12:48.966 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:12:48.969 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:12:48.970 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 12.8911ms
+2025-06-27 16:12:48.971 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:12:48.973 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 53.8282ms
+2025-06-27 16:12:48.980 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:12:48.982 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:12:48.983 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:12:48.986 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:12:48.989 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:12:48.990 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5.9109ms
+2025-06-27 16:12:48.992 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:12:48.993 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 12.6391ms
+2025-06-27 16:14:07.012 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:14:07.021 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:14:07.022 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:14:07.027 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:14:07.029 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:14:07.030 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.2587ms
+2025-06-27 16:14:07.031 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:14:07.032 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 20.0015ms
+2025-06-27 16:14:31.021 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:14:31.023 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:14:31.024 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:14:31.028 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:14:31.030 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:14:31.032 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.0083ms
+2025-06-27 16:14:31.033 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:14:31.035 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 13.8955ms
+2025-06-27 16:14:53.828 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:14:53.832 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:14:53.833 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:14:53.839 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:14:53.841 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:14:53.843 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 7.3044ms
+2025-06-27 16:14:53.844 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:14:53.845 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 16.5535ms
+2025-06-27 16:14:53.848 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:14:53.850 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:14:53.851 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:14:53.854 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:14:53.858 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:14:53.859 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.6178ms
+2025-06-27 16:14:53.860 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:14:53.862 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 13.9742ms
+2025-06-27 16:15:03.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:15:03.032 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:15:03.033 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:15:03.038 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:15:03.040 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:15:03.041 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.7571ms
+2025-06-27 16:15:03.043 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:15:03.044 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 15.9148ms
+2025-06-27 16:15:03.047 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:15:03.049 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:15:03.050 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:15:03.053 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:15:03.056 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:15:03.057 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5.4257ms
+2025-06-27 16:15:03.059 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:15:03.060 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 12.5843ms
+2025-06-27 16:15:58.026 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:15:58.034 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:15:58.035 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:15:58.040 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:15:58.043 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:15:58.044 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.9285ms
+2025-06-27 16:15:58.046 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:15:58.047 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 21.092ms
+2025-06-27 16:17:06.370 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:17:06.373 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:17:06.374 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:17:06.379 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:17:06.381 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:17:06.382 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.8599ms
+2025-06-27 16:17:06.384 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:17:06.386 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 15.3657ms
+2025-06-27 16:17:06.389 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:17:06.391 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:17:06.392 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:17:06.395 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:17:06.397 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:17:06.398 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 4.8567ms
+2025-06-27 16:17:06.400 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:17:06.401 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 12.1947ms
+2025-06-27 16:17:28.014 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:17:28.021 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:17:28.022 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:17:28.027 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:17:28.030 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:17:28.031 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.7665ms
+2025-06-27 16:17:28.032 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:17:28.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 18.8933ms
+2025-06-27 16:17:43.867 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:17:43.870 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:17:43.871 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:17:43.888 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:17:43.890 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:17:43.891 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 18.7527ms
+2025-06-27 16:17:43.893 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:17:43.894 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 27.0635ms
+2025-06-27 16:17:43.901 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:17:43.906 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:17:43.907 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:17:43.911 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:17:43.915 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:17:43.916 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 7.3235ms
+2025-06-27 16:17:43.918 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:17:43.920 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 19.2161ms
+2025-06-27 16:42:06.075 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:42:06.082 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 11:06:59 AM', Current time (UTC): '6/27/2025 11:12:06 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-27 16:42:06.120 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 11:06:59 AM', Current time (UTC): '6/27/2025 11:12:06 AM'.
+2025-06-27 16:42:06.122 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-27 16:42:06.126 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-27 16:42:06.127 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 401 0 null 52.0074ms
+2025-06-27 16:42:06.132 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:42:06.135 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 11:06:59 AM', Current time (UTC): '6/27/2025 11:12:06 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-27 16:42:06.139 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 11:06:59 AM', Current time (UTC): '6/27/2025 11:12:06 AM'.
+2025-06-27 16:42:06.140 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-27 16:42:06.142 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-27 16:42:06.143 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 401 0 null 10.8979ms
+2025-06-27 16:43:09.132 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:43:09.140 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:43:09.141 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:43:09.170 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:43:09.173 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:43:09.174 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 31.6565ms
+2025-06-27 16:43:09.176 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:43:09.177 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 44.2971ms
+2025-06-27 16:43:09.184 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:43:09.186 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:43:09.187 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:43:09.190 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:43:09.193 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:43:09.194 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 4.8969ms
+2025-06-27 16:43:09.195 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:43:09.196 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 11.9789ms
+2025-06-27 16:43:54.028 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:43:54.037 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:43:54.039 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:43:54.043 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:43:54.045 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:43:54.046 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5.6239ms
+2025-06-27 16:43:54.048 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:43:54.049 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 20.7825ms
+2025-06-27 16:44:00.026 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:44:00.030 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:44:00.031 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:44:00.035 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:44:00.041 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:44:00.042 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 9.4165ms
+2025-06-27 16:44:00.044 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:44:00.045 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 18.9331ms
+2025-06-27 16:46:24.009 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:46:24.014 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:46:24.015 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:46:24.027 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:46:24.032 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:46:24.033 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 16.8504ms
+2025-06-27 16:46:24.036 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:46:24.037 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 28.5905ms
+2025-06-27 16:46:31.858 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:46:31.861 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:46:31.862 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:46:31.892 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:46:31.900 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:46:31.902 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 34.8075ms
+2025-06-27 16:46:31.904 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:46:31.908 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 50.8766ms
+2025-06-27 16:50:42.062 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:50:42.067 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:50:42.068 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:50:42.084 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:50:42.087 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:50:42.088 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 17.6299ms
+2025-06-27 16:50:42.089 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:50:42.090 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 28.3411ms
+2025-06-27 16:51:45.014 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:51:45.021 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:51:45.022 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:51:45.027 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:51:45.029 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:51:45.030 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.6576ms
+2025-06-27 16:51:45.032 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:51:45.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 18.737ms
+2025-06-27 16:53:13.725 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:53:13.728 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:53:13.729 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:53:13.734 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:53:13.737 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:53:13.739 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 8.1867ms
+2025-06-27 16:53:13.740 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:53:13.741 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 16.0674ms
+2025-06-27 16:53:13.760 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:53:13.764 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:53:13.765 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:53:13.772 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:53:13.780 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:53:13.781 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 14.6292ms
+2025-06-27 16:53:13.783 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:53:13.784 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 23.9785ms
+2025-06-27 16:53:39.537 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 16:53:39.546 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:53:39.548 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 16:53:39.562 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 16:53:39.568 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 16:53:39.570 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 14.0766ms
+2025-06-27 16:53:39.572 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 16:53:39.573 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 36.031ms
+2025-06-27 16:56:31.975 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 16:56:31.996 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 20.5025ms
+2025-06-27 16:56:32.013 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 16:56:32.015 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 16:56:32.022 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.7904ms
+2025-06-27 16:56:32.031 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.7456ms
+2025-06-27 16:56:32.271 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 16:56:32.277 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.1684ms
+2025-06-27 17:05:50.090 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:05:50.095 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:05:50.099 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:05:50.113 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:05:50.115 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:05:50.118 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 16.1884ms
+2025-06-27 17:05:50.120 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:05:50.122 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 32.5863ms
+2025-06-27 17:05:50.129 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:05:50.131 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:05:50.132 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:05:50.136 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:05:50.143 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:05:50.145 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 10.4326ms
+2025-06-27 17:05:50.146 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:05:50.147 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 18.8883ms
+2025-06-27 17:05:58.251 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:05:58.255 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:05:58.256 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:05:58.260 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:05:58.262 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:05:58.263 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5.4291ms
+2025-06-27 17:05:58.264 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:05:58.266 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 14.0798ms
+2025-06-27 17:05:58.268 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:05:58.271 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:05:58.271 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:05:58.275 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:05:58.277 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:05:58.278 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5.0521ms
+2025-06-27 17:05:58.279 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:05:58.280 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 11.6965ms
+2025-06-27 17:10:18.986 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:10:18.992 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:10:18.993 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:10:18.998 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:10:19.000 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:10:19.001 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.2732ms
+2025-06-27 17:10:19.003 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:10:19.004 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 17.5603ms
+2025-06-27 17:10:43.738 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:10:43.747 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:10:43.748 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:10:43.752 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:10:43.758 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:10:43.759 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 9.5809ms
+2025-06-27 17:10:43.760 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:10:43.762 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 24.0168ms
+2025-06-27 17:10:43.765 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:10:43.767 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:10:43.768 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:10:43.771 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:10:43.773 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:10:43.774 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5.2245ms
+2025-06-27 17:10:43.775 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:10:43.777 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 11.8341ms
+2025-06-27 17:11:07.465 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:11:07.472 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:11:07.472 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:11:07.477 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:11:07.479 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:11:07.480 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5.7662ms
+2025-06-27 17:11:07.481 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:11:07.483 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 17.5544ms
+2025-06-27 17:11:07.489 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:11:07.491 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:11:07.492 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:11:07.496 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:11:07.498 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:11:07.499 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5.0009ms
+2025-06-27 17:11:07.500 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:11:07.501 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 11.8233ms
+2025-06-27 17:13:15.644 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:13:15.650 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:13:15.650 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:13:15.655 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:13:15.658 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:13:15.659 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.5911ms
+2025-06-27 17:13:15.660 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:13:15.661 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 16.9086ms
+2025-06-27 17:13:15.666 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:13:15.668 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:13:15.669 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:13:15.673 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:13:15.680 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:13:15.681 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 10.8867ms
+2025-06-27 17:13:15.683 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:13:15.684 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 17.8579ms
+2025-06-27 17:14:06.964 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:14:06.969 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:14:06.970 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:14:06.974 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:14:06.976 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:14:06.977 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5.5579ms
+2025-06-27 17:14:06.979 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:14:06.980 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 16.1823ms
+2025-06-27 17:17:26.815 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 17:17:26.829 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 13.911ms
+2025-06-27 17:17:26.845 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 17:17:26.849 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 17:17:26.855 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.289ms
+2025-06-27 17:17:26.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.6309ms
+2025-06-27 17:17:26.961 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 17:17:26.969 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - VenueService.Controllers.VenueController.CreateVenue (VenueService). See inner exception
+ ---> Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate schema for type - VenueService.Dto.CreateVenueDto. See inner exception
+ ---> System.TypeLoadException: Could not load type 'Invalid_Token.0x0200006A' from assembly 'VenueService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimeMethodInfo.<get_Signature>g__LazyCreateSignature|25_0()
+   at System.Reflection.RuntimePropertyInfo.GetIndexParametersNoCopy()
+   at System.Attribute.GetIndexParameterTypes(PropertyInfo element)
+   at System.Attribute.InternalGetCustomAttributes(PropertyInfo element, Type type, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttribute[T](MemberInfo element)
+   at Swashbuckle.AspNetCore.SwaggerGen.JsonSerializerDataContractResolver.<GetDataPropertiesFor>b__6_1(PropertyInfo property)
+   at System.Linq.Enumerable.WhereArrayIterator`1.ToArray()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.GetEnumerator()+MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.JsonSerializerDataContractResolver.GetDataPropertiesFor(Type objectType, Type& extensionDataType)
+   at Swashbuckle.AspNetCore.SwaggerGen.JsonSerializerDataContractResolver.GetDataContractForType(Type type)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GetDataContractFor(Type modelType)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchemaForParameter(Type modelType, SchemaRepository schemaRepository, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchema(Type modelType, SchemaRepository schemaRepository, MemberInfo memberInfo, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateRequestBodyFromBodyParameter(ApiDescription apiDescription, SchemaRepository schemaRepository, ApiParameterDescription bodyParameter)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateRequestBody(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27 17:17:26.990 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 29.1881ms
+2025-06-27 17:26:40.254 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5035/api/Venue/createVenue - application/json 59
+2025-06-27 17:26:40.257 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 11:42:39 AM', Current time (UTC): '6/27/2025 11:56:40 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-27 17:26:40.260 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 11:42:39 AM', Current time (UTC): '6/27/2025 11:56:40 AM'.
+2025-06-27 17:26:40.261 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-27 17:26:40.262 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-27 17:26:40.263 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5035/api/Venue/createVenue - 401 0 null 8.864ms
+2025-06-27 17:27:49.888 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:27:49.896 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:27:49.899 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:27:49.913 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:27:49.915 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:27:49.923 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 21.3574ms
+2025-06-27 17:27:49.925 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:27:49.927 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 38.1027ms
+2025-06-27 17:27:49.936 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:27:49.938 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:27:49.939 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:27:49.942 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:27:49.945 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:27:49.946 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 5.453ms
+2025-06-27 17:27:49.947 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:27:49.948 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 11.9435ms
+2025-06-27 17:28:39.090 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5035/api/Venue/createVenue - application/json 59
+2025-06-27 17:28:39.098 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.CreateVenue (VenueService)'
+2025-06-27 17:28:39.106 +05:30 [INF] Route matched with {action = "CreateVenue", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVenue(VenueService.Dto.CreateVenueDto) on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:28:39.116 +05:30 [INF] Executed action VenueService.Controllers.VenueController.CreateVenue (VenueService) in 8.2874ms
+2025-06-27 17:28:39.118 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.CreateVenue (VenueService)'
+2025-06-27 17:28:39.162 +05:30 [ERR] An unexpected error has been occured : Could not load type 'Invalid_Token.0x0200006A' from assembly 'VenueService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2025-06-27 17:28:39.188 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5035/api/Venue/createVenue - 500 null application/json 98.0935ms
+2025-06-27 17:29:35.846 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5035/api/Venue/createVenue - application/json 59
+2025-06-27 17:29:35.849 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.CreateVenue (VenueService)'
+2025-06-27 17:29:35.850 +05:30 [INF] Route matched with {action = "CreateVenue", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVenue(VenueService.Dto.CreateVenueDto) on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:29:35.853 +05:30 [INF] Executed action VenueService.Controllers.VenueController.CreateVenue (VenueService) in 1.5982ms
+2025-06-27 17:29:35.854 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.CreateVenue (VenueService)'
+2025-06-27 17:29:35.874 +05:30 [ERR] An unexpected error has been occured : Could not load type 'Invalid_Token.0x0200006A' from assembly 'VenueService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2025-06-27 17:29:35.877 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5035/api/Venue/createVenue - 500 null application/json 31.8494ms
+2025-06-27 17:31:08.089 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 17:31:08.364 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 17:31:08.465 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 17:31:08.467 +05:30 [INF] Hosting environment: Development
+2025-06-27 17:31:08.468 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 17:31:09.868 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 17:31:10.261 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 395.5523ms
+2025-06-27 17:31:10.329 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 17:31:10.334 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 17:31:10.338 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 9.2049ms
+2025-06-27 17:31:10.386 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.0217ms
+2025-06-27 17:31:10.535 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 17:31:10.546 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.2698ms
+2025-06-27 17:31:23.736 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5035/api/Venue/createVenue - application/json 59
+2025-06-27 17:31:23.743 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 17:31:23.875 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.CreateVenue (VenueService)'
+2025-06-27 17:31:23.897 +05:30 [INF] Route matched with {action = "CreateVenue", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVenue(VenueService.Dto.CreateVenueDto) on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:31:48.330 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (Size = 250), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (Size = 150), @p10='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Venues] ([Id], [Capacity], [CreatedBy], [CreatedDate], [IsActive], [IsDeleted], [Location], [ModifiedBy], [ModifiedDate], [Name], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2025-06-27 17:31:49.057 +05:30 [INF] Venue created successfully.
+2025-06-27 17:31:57.847 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:31:57.853 +05:30 [INF] Executed action VenueService.Controllers.VenueController.CreateVenue (VenueService) in 33951.5618ms
+2025-06-27 17:31:57.855 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.CreateVenue (VenueService)'
+2025-06-27 17:31:57.862 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5035/api/Venue/createVenue - 200 null application/json; charset=utf-8 34126.7076ms
+2025-06-27 17:33:00.688 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5035/api/Venue/createVenue - application/json 53
+2025-06-27 17:33:00.723 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.CreateVenue (VenueService)'
+2025-06-27 17:33:00.724 +05:30 [INF] Route matched with {action = "CreateVenue", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVenue(VenueService.Dto.CreateVenueDto) on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:33:06.257 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (Size = 250), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (Size = 150), @p10='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Venues] ([Id], [Capacity], [CreatedBy], [CreatedDate], [IsActive], [IsDeleted], [Location], [ModifiedBy], [ModifiedDate], [Name], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2025-06-27 17:33:06.260 +05:30 [INF] Venue created successfully.
+2025-06-27 17:33:10.923 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:33:10.925 +05:30 [INF] Executed action VenueService.Controllers.VenueController.CreateVenue (VenueService) in 10199.0466ms
+2025-06-27 17:33:10.927 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.CreateVenue (VenueService)'
+2025-06-27 17:33:10.929 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5035/api/Venue/createVenue - 200 null application/json; charset=utf-8 10240.7849ms
+2025-06-27 17:33:10.954 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:33:10.960 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:33:10.965 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:33:11.202 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:33:11.215 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:33:11.226 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 258.5543ms
+2025-06-27 17:33:11.228 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:33:11.230 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 275.4081ms
+2025-06-27 17:33:11.233 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:33:11.235 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:33:11.236 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:33:11.243 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:33:11.247 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:33:11.248 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 10.5128ms
+2025-06-27 17:33:11.250 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:33:11.251 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 18.1498ms
+2025-06-27 17:33:36.862 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:33:36.866 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:33:36.867 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:33:36.873 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:33:36.876 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:33:36.877 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 8.0443ms
+2025-06-27 17:33:36.879 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:33:36.881 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 18.5717ms
+2025-06-27 17:33:36.888 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - null null
+2025-06-27 17:33:36.890 +05:30 [INF] Executing endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:33:36.891 +05:30 [INF] Route matched with {action = "GetVenueList", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVenueList() on controller VenueService.Controllers.VenueController (VenueService).
+2025-06-27 17:33:36.896 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Name], [v].[Location], [v].[Capacity]
+FROM [Venues] AS [v]
+WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
+2025-06-27 17:33:36.899 +05:30 [INF] Executing OkObjectResult, writing value of type 'VenueService.common.ResponseBody'.
+2025-06-27 17:33:36.900 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.8117ms
+2025-06-27 17:33:36.901 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
+2025-06-27 17:33:36.902 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 14.5267ms

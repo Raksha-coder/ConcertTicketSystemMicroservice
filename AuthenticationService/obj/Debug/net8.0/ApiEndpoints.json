@@ -14,21 +14,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "AuthenticationService.Controllers.AuthController",
-    "Method": "GetUserToken",
-    "RelativePath": "auth/user-token",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "SharedLibrary.Token.UserLoginRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]

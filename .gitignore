@@ -1,0 +1,78 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider IDE files
+.idea/
+
+# NuGet packages
+*.nupkg
+# NuGet package folders
+packages/
+# NuGet API keys
+.nuget/NuGet.Config
+
+# ASP.NET temporary files
+wwwroot/
+
+# Publish output folder
+publish/
+
+# User-specific files
+*.rsuser
+*.resharper
+*.DotSettings.user
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables
+.env
+.env.*
+
+# JetBrains Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+
+# Visual Studio Code
+.vscode/
+
+# Docker files
+docker-compose.override.yml
+
+# Others
+*.swp
+*.swo
+
+# IIS Express files
+IISExpress/
+
+# Test result files
+TestResults/
+
+# Coverage results
+*.coverage
+*.coveragexml
+*.cov
+*.cobertura.xml
+*.opencover.xml
+
+# Azure Functions local settings
+local.settings.json
+
+# EF Core Migrations History
+Migrations/
+

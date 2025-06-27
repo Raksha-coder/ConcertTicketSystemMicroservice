@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using SharedLibrary.Models;
 
 namespace VenueService.Model
 {
-    public class Venue
+    public class Venue :BaseModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] 

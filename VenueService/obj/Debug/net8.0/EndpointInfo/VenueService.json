@@ -57,33 +57,39 @@
           }
         }
       }
+    },
+    "/api/Venue/getVenueList": {
+      "get": {
+        "tags": [
+          "Venue"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
       "CreateVenueDto": {
-        "required": [
-          "location",
-          "name"
-        ],
         "type": "object",
         "properties": {
           "id": {
             "type": "string",
-            "format": "uuid"
+            "format": "uuid",
+            "nullable": true
           },
           "name": {
-            "maxLength": 200,
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "location": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "capacity": {
-            "maximum": 2147483647,
-            "minimum": 1,
             "type": "integer",
             "format": "int32"
           }

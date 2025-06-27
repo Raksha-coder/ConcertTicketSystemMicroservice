@@ -30,5 +30,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VenueService.Controllers.VenueController",
+    "Method": "GetVenueList",
+    "RelativePath": "api/Venue/getVenueList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

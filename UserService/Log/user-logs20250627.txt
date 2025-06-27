@@ -1,0 +1,601 @@
+2025-06-27 10:56:31.799 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 10:56:32.146 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 10:56:32.355 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 10:56:32.373 +05:30 [INF] Hosting environment: Development
+2025-06-27 10:56:32.374 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 10:56:33.586 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 10:56:33.886 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 302.2978ms
+2025-06-27 10:56:33.895 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 10:56:33.901 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.0989ms
+2025-06-27 10:56:33.912 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 10:56:33.940 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.8266ms
+2025-06-27 10:56:34.002 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 10:56:34.010 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.4747ms
+2025-06-27 10:57:12.510 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 138
+2025-06-27 10:57:12.524 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 10:57:12.652 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 10:57:12.688 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 10:57:34.647 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 11:00:11.145 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 11:00:11.424 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 11:00:11.547 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 11:00:11.549 +05:30 [INF] Hosting environment: Development
+2025-06-27 11:00:11.550 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 11:00:11.883 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 11:00:12.065 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 184.0947ms
+2025-06-27 11:00:12.074 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 11:00:12.078 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.6158ms
+2025-06-27 11:00:12.086 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 11:00:12.115 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.1148ms
+2025-06-27 11:00:12.164 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 11:00:12.174 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.04ms
+2025-06-27 11:00:47.409 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 138
+2025-06-27 11:00:47.421 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 11:00:47.548 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 11:00:47.570 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 11:00:57.437 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 11:03:41.704 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 11:03:41.721 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 174147.1628ms
+2025-06-27 11:03:41.723 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 11:03:41.730 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 499 null application/json; charset=utf-8 174322.2589ms
+2025-06-27 11:04:07.700 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 138
+2025-06-27 11:04:07.705 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 11:04:07.706 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 11:04:10.009 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 11:04:19.372 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 11:04:19.374 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 11666.2122ms
+2025-06-27 11:04:19.376 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 11:04:19.377 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 11677.5352ms
+2025-06-27 11:05:33.532 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 138
+2025-06-27 11:05:33.536 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 11:05:33.537 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 11:05:35.232 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 11:05:38.102 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 11:05:38.104 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 4564.6976ms
+2025-06-27 11:05:38.106 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 11:05:38.107 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 4575.8541ms
+2025-06-27 11:10:46.107 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register - application/json 106
+2025-06-27 11:10:46.113 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-27 11:10:46.119 +05:30 [INF] Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 11:10:47.690 +05:30 [INF] Executed DbCommand (44ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EventPlanners] ([CreatedBy], [CreatedDate], [Email], [FullName], [ModifiedBy], [ModifiedDate], [PasswordHash], [RoleId], [Status])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-06-27 11:10:47.721 +05:30 [INF] user created successfully.
+2025-06-27 11:10:48.470 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 11:10:48.473 +05:30 [INF] Executed action UserService.Controllers.UserController.RegisterUser (UserService) in 2351.7153ms
+2025-06-27 11:10:48.475 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-27 11:10:48.477 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register - 200 null application/json; charset=utf-8 2370.5419ms
+2025-06-27 11:11:07.852 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 11:11:07.854 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 11:11:07.855 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 11:11:11.400 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 11:11:19.900 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 11:11:19.902 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 12045.5384ms
+2025-06-27 11:11:19.904 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 11:11:19.906 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 12053.7442ms
+2025-06-27 13:03:47.450 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 13:03:47.774 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 13:03:47.863 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 13:03:47.865 +05:30 [INF] Hosting environment: Development
+2025-06-27 13:03:47.866 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 13:03:48.379 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 13:03:48.564 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 185.8964ms
+2025-06-27 13:03:48.594 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 13:03:48.594 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 13:03:48.598 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.1216ms
+2025-06-27 13:03:48.622 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.7225ms
+2025-06-27 13:03:48.753 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 13:03:48.761 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.9317ms
+2025-06-27 13:04:02.212 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 13:04:02.218 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 13:04:02.296 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 13:04:02.318 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 13:04:06.993 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 13:04:10.339 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 13:04:10.350 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 8027.0355ms
+2025-06-27 13:04:10.352 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 13:04:10.358 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 8146.7627ms
+2025-06-27 13:19:23.270 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 13:19:23.677 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 13:19:23.803 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 13:19:23.804 +05:30 [INF] Hosting environment: Development
+2025-06-27 13:19:23.805 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 13:19:23.968 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 13:19:24.188 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 221.9413ms
+2025-06-27 13:19:24.197 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 13:19:24.202 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.7864ms
+2025-06-27 13:19:24.214 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 13:19:24.245 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.9871ms
+2025-06-27 13:19:24.307 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 13:19:24.315 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.9522ms
+2025-06-27 14:18:22.478 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 14:18:22.783 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 14:18:22.930 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 14:18:22.932 +05:30 [INF] Hosting environment: Development
+2025-06-27 14:18:22.933 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 14:18:23.206 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 14:18:23.415 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 209.8531ms
+2025-06-27 14:18:23.445 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 14:18:23.449 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.095ms
+2025-06-27 14:18:23.501 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 14:18:23.536 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.3749ms
+2025-06-27 14:18:23.594 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 14:18:23.602 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.0085ms
+2025-06-27 14:19:23.852 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 14:19:23.864 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 14:19:24.005 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 14:19:24.029 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 14:19:29.380 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 14:19:29.476 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 14:19:29.488 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 5453.6753ms
+2025-06-27 14:19:29.490 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 14:19:29.497 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 5645.2385ms
+2025-06-27 14:22:13.866 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 14:22:13.875 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 14:22:13.877 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 14:22:15.300 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 14:22:15.306 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 14:22:15.308 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 1429.6318ms
+2025-06-27 14:22:15.310 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 14:22:15.312 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 1445.9226ms
+2025-06-27 14:24:31.142 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 14:24:31.147 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 14:24:31.148 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 14:24:32.851 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 14:24:32.855 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 14:24:32.856 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 1705.5336ms
+2025-06-27 14:24:32.858 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 14:24:32.859 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 1717.6663ms
+2025-06-27 15:01:53.988 +05:30 [INF] Executed DbCommand (301ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [UserSystemDb];
+2025-06-27 15:01:54.079 +05:30 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [UserSystemDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-06-27 15:01:54.092 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-27 15:01:54.095 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-06-27 15:01:54.109 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-06-27 15:01:54.161 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-06-27 15:01:54.168 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-27 15:01:54.169 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-27 15:01:54.177 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-27 15:01:54.186 +05:30 [INF] Applying migration '20250626095735_added user service'.
+2025-06-27 15:01:54.200 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Role] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Role] PRIMARY KEY ([Id])
+);
+2025-06-27 15:01:54.202 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [EventPlanners] (
+    [Id] int NOT NULL IDENTITY,
+    [Email] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    [FullName] nvarchar(max) NOT NULL,
+    [RoleId] int NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [ModifiedBy] int NOT NULL,
+    [ModifiedDate] datetime2 NOT NULL,
+    [Status] tinyint NOT NULL,
+    CONSTRAINT [PK_EventPlanners] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EventPlanners_Role_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [Role] ([Id]) ON DELETE CASCADE
+);
+2025-06-27 15:01:54.202 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_EventPlanners_RoleId] ON [EventPlanners] ([RoleId]);
+2025-06-27 15:01:54.204 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250626095735_added user service', N'9.0.6');
+2025-06-27 15:01:54.205 +05:30 [INF] Applying migration '20250627093147_initial setup of User'.
+2025-06-27 15:01:54.282 +05:30 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var sysname;
+SELECT @var = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[EventPlanners]') AND [c].[name] = N'ModifiedDate');
+IF @var IS NOT NULL EXEC(N'ALTER TABLE [EventPlanners] DROP CONSTRAINT [' + @var + '];');
+ALTER TABLE [EventPlanners] ALTER COLUMN [ModifiedDate] datetime2 NULL;
+2025-06-27 15:01:54.295 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var1 sysname;
+SELECT @var1 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[EventPlanners]') AND [c].[name] = N'ModifiedBy');
+IF @var1 IS NOT NULL EXEC(N'ALTER TABLE [EventPlanners] DROP CONSTRAINT [' + @var1 + '];');
+ALTER TABLE [EventPlanners] ALTER COLUMN [ModifiedBy] int NULL;
+2025-06-27 15:01:54.308 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var2 sysname;
+SELECT @var2 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[EventPlanners]') AND [c].[name] = N'CreatedDate');
+IF @var2 IS NOT NULL EXEC(N'ALTER TABLE [EventPlanners] DROP CONSTRAINT [' + @var2 + '];');
+ALTER TABLE [EventPlanners] ALTER COLUMN [CreatedDate] datetime2 NULL;
+2025-06-27 15:01:54.320 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var3 sysname;
+SELECT @var3 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[EventPlanners]') AND [c].[name] = N'CreatedBy');
+IF @var3 IS NOT NULL EXEC(N'ALTER TABLE [EventPlanners] DROP CONSTRAINT [' + @var3 + '];');
+ALTER TABLE [EventPlanners] ALTER COLUMN [CreatedBy] int NULL;
+2025-06-27 15:01:54.323 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [EventPlanners] ADD [IsActive] bit NULL;
+2025-06-27 15:01:54.324 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [EventPlanners] ADD [IsDeleted] bit NULL;
+2025-06-27 15:01:54.325 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250627093147_initial setup of User', N'9.0.6');
+2025-06-27 15:01:54.327 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-06-27 15:03:03.398 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:03:03.608 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 15:03:03.688 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:03:03.690 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:03:03.691 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 15:03:04.447 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 15:03:04.642 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 202.0357ms
+2025-06-27 15:03:04.649 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:03:04.656 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.5782ms
+2025-06-27 15:03:04.664 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 15:03:04.694 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.831ms
+2025-06-27 15:03:04.755 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 15:03:04.764 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.9796ms
+2025-06-27 15:03:31.865 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:03:32.151 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 15:03:32.282 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:03:32.283 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:03:32.284 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 15:03:32.933 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 15:03:33.134 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 203.6071ms
+2025-06-27 15:03:33.195 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 15:03:33.195 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:03:33.202 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.9181ms
+2025-06-27 15:03:33.226 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.1882ms
+2025-06-27 15:03:33.277 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 15:03:33.286 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.6645ms
+2025-06-27 15:08:08.008 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/register - application/json 106
+2025-06-27 15:08:08.015 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 15:08:08.134 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 9:24:32 AM', Current time (UTC): '6/27/2025 9:38:08 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-27 15:08:08.171 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 9:24:32 AM', Current time (UTC): '6/27/2025 9:38:08 AM'.
+2025-06-27 15:08:08.176 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-27 15:08:08.197 +05:30 [INF] Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 15:08:09.341 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EventPlanners] ([CreatedBy], [CreatedDate], [Email], [FullName], [IsActive], [IsDeleted], [ModifiedBy], [ModifiedDate], [PasswordHash], [RoleId], [Status])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2025-06-27 15:08:09.384 +05:30 [INF] user created successfully.
+2025-06-27 15:08:09.389 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 15:08:09.396 +05:30 [INF] Executed action UserService.Controllers.UserController.RegisterUser (UserService) in 1193.2765ms
+2025-06-27 15:08:09.398 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.RegisterUser (UserService)'
+2025-06-27 15:08:09.405 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/register - 200 null application/json; charset=utf-8 1396.886ms
+2025-06-27 15:08:34.824 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 15:08:34.828 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 9:24:32 AM', Current time (UTC): '6/27/2025 9:38:34 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-27 15:08:34.831 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 9:24:32 AM', Current time (UTC): '6/27/2025 9:38:34 AM'.
+2025-06-27 15:08:34.833 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:08:34.837 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 15:08:41.299 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[IsActive], [e].[IsDeleted], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 15:08:41.329 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 15:08:41.338 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 6497.5487ms
+2025-06-27 15:08:41.349 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:08:41.353 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 6529.5337ms
+2025-06-27 15:08:42.020 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 15:08:42.040 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 20.0379ms
+2025-06-27 15:08:42.118 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 15:08:42.121 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:08:42.130 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.5166ms
+2025-06-27 15:08:42.131 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.5687ms
+2025-06-27 15:08:42.246 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 15:08:42.256 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.1502ms
+2025-06-27 15:17:36.939 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:17:37.259 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 15:17:37.395 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:17:37.396 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:17:37.397 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 15:17:37.825 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 15:17:38.031 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 207.2737ms
+2025-06-27 15:17:38.059 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:17:38.059 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 15:17:38.063 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.0892ms
+2025-06-27 15:17:38.090 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.3035ms
+2025-06-27 15:17:38.148 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 15:17:38.158 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.6099ms
+2025-06-27 15:21:07.953 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:21:08.139 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 15:21:08.234 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:21:08.235 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:21:08.237 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 15:21:08.562 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 15:21:08.755 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 193.7461ms
+2025-06-27 15:21:08.766 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:21:08.772 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.9789ms
+2025-06-27 15:21:08.785 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 15:21:08.820 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.7534ms
+2025-06-27 15:21:08.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 15:21:08.889 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.8081ms
+2025-06-27 15:26:48.191 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 15:26:48.198 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 15:26:48.376 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:26:48.398 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 15:26:49.716 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[IsActive], [e].[IsDeleted], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 15:26:49.779 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'UserService.Data.UserdbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method20(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method20(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-06-27 15:26:49.957 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 1554.3788ms
+2025-06-27 15:26:49.960 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:26:49.981 +05:30 [ERR] An unexpected error has been occured : Data is Null. This method or property cannot be called on Null values.
+2025-06-27 15:26:50.008 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 500 null application/json 1816.9443ms
+2025-06-27 15:28:38.326 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 15:28:38.334 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:28:38.335 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 15:28:50.502 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[IsActive], [e].[IsDeleted], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 15:28:50.505 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'UserService.Data.UserdbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method20(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method20(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-06-27 15:28:53.518 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 15180.9532ms
+2025-06-27 15:28:53.521 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:29:04.429 +05:30 [ERR] An unexpected error has been occured : Data is Null. This method or property cannot be called on Null values.
+2025-06-27 15:29:04.433 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 500 null application/json 26107.0481ms
+2025-06-27 15:30:29.933 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 15:30:29.941 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:30:29.942 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 15:31:12.891 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[IsActive], [e].[IsDeleted], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 15:31:12.894 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'UserService.Data.UserdbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method20(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method20(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-06-27 15:31:18.471 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 48526.6832ms
+2025-06-27 15:31:18.473 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:31:18.494 +05:30 [ERR] An unexpected error has been occured : Data is Null. This method or property cannot be called on Null values.
+2025-06-27 15:31:18.497 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 500 null application/json 48564.4105ms
+2025-06-27 15:33:10.206 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 15:33:10.219 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 12.9212ms
+2025-06-27 15:33:10.231 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 15:33:10.231 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:33:10.236 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.9584ms
+2025-06-27 15:33:10.242 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.0881ms
+2025-06-27 15:33:10.308 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 15:33:10.320 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.7092ms
+2025-06-27 15:33:16.967 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 15:33:16.970 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:33:16.974 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 15:33:33.695 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[@__encryptedEmail_0='?' (Size = 4000), @__encryptedPassword_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[IsActive], [e].[IsDeleted], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+WHERE [e].[Email] = @__encryptedEmail_0 AND [e].[PasswordHash] = @__encryptedPassword_1
+2025-06-27 15:33:33.698 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'UserService.Data.UserdbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method43(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method43(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-06-27 15:33:41.123 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 24145.474ms
+2025-06-27 15:33:41.124 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:33:41.147 +05:30 [ERR] An unexpected error has been occured : Data is Null. This method or property cannot be called on Null values.
+2025-06-27 15:33:41.152 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 500 null application/json 24185.6414ms
+2025-06-27 15:44:33.116 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 15:44:33.134 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 17.8888ms
+2025-06-27 15:44:33.149 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 15:44:33.158 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:44:33.159 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.3404ms
+2025-06-27 15:44:33.162 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 3.4441ms
+2025-06-27 15:44:33.400 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 15:44:33.404 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.0194ms
+2025-06-27 15:44:43.812 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 15:44:43.818 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 10:08:41 AM', Current time (UTC): '6/27/2025 10:14:43 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-27 15:44:43.825 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '6/27/2025 10:08:41 AM', Current time (UTC): '6/27/2025 10:14:43 AM'.
+2025-06-27 15:44:43.827 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:44:43.830 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 15:44:49.746 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[IsActive], [e].[IsDeleted], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 15:45:09.691 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 15:45:09.695 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 25862.7074ms
+2025-06-27 15:45:09.697 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 15:45:09.698 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 25886.8114ms
+2025-06-27 15:50:23.103 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 15:50:23.192 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 89.471ms
+2025-06-27 15:50:23.205 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 15:50:23.210 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:50:23.219 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.7452ms
+2025-06-27 15:50:23.219 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.1681ms
+2025-06-27 15:50:23.303 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 15:50:23.307 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.9554ms
+2025-06-27 15:55:53.283 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:55:53.991 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 15:55:54.110 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:55:54.111 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:55:54.112 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 15:55:54.426 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 15:55:54.612 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 186.3908ms
+2025-06-27 15:55:54.645 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 15:55:54.645 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:55:54.655 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.5122ms
+2025-06-27 15:55:54.679 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.7332ms
+2025-06-27 15:55:54.730 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 15:55:54.738 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.5036ms
+2025-06-27 15:58:12.130 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 15:58:12.458 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 15:58:12.579 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 15:58:12.581 +05:30 [INF] Hosting environment: Development
+2025-06-27 15:58:12.582 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 15:58:13.066 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 15:58:13.248 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 182.7816ms
+2025-06-27 15:58:13.259 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 15:58:13.263 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.4251ms
+2025-06-27 15:58:13.273 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 15:58:13.301 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.7054ms
+2025-06-27 15:58:13.355 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 15:58:13.363 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.713ms
+2025-06-27 16:06:04.935 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 16:06:05.274 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 16:06:05.554 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 16:06:05.556 +05:30 [INF] Hosting environment: Development
+2025-06-27 16:06:05.557 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 16:06:05.706 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 16:06:05.935 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 228.9921ms
+2025-06-27 16:06:05.963 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 16:06:05.963 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 16:06:05.969 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.8107ms
+2025-06-27 16:06:05.995 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.6393ms
+2025-06-27 16:06:06.078 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 16:06:06.088 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.9284ms
+2025-06-27 16:06:52.289 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 16:06:52.297 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-27 16:06:52.427 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 16:06:52.449 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 16:06:57.487 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[IsActive], [e].[IsDeleted], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 16:06:59.095 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 16:06:59.109 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 6654.9007ms
+2025-06-27 16:06:59.111 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 16:06:59.119 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 6829.4867ms
+2025-06-27 16:42:30.137 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 16:42:30.141 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 16:42:30.142 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 16:42:39.865 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[IsActive], [e].[IsDeleted], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 16:42:39.870 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 16:42:39.872 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 9727.5091ms
+2025-06-27 16:42:39.873 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 16:42:39.876 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 9739.5341ms
+2025-06-27 16:56:30.451 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 16:56:30.467 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 16.4877ms
+2025-06-27 16:56:30.482 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 16:56:30.482 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 16:56:30.485 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 3.087ms
+2025-06-27 16:56:30.501 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.0195ms
+2025-06-27 16:56:30.711 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 16:56:30.716 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.8015ms
+2025-06-27 17:17:26.351 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 17:17:26.371 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 19.5303ms
+2025-06-27 17:17:26.435 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 17:17:26.439 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 17:17:26.444 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.0365ms
+2025-06-27 17:17:26.444 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.9562ms
+2025-06-27 17:17:26.581 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 17:17:26.587 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.7853ms
+2025-06-27 17:27:46.326 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5172/api/User/login - application/json 158
+2025-06-27 17:27:46.332 +05:30 [INF] Executing endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 17:27:46.336 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(UserService.DTO.UserRegisterRequestDto) on controller UserService.Controllers.UserController (UserService).
+2025-06-27 17:27:46.473 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedBy], [e].[CreatedDate], [e].[Email], [e].[FullName], [e].[IsActive], [e].[IsDeleted], [e].[ModifiedBy], [e].[ModifiedDate], [e].[PasswordHash], [e].[RoleId], [e].[Status]
+FROM [EventPlanners] AS [e]
+2025-06-27 17:27:46.477 +05:30 [INF] Executing OkObjectResult, writing value of type 'SharedLibrary.Response.ResponseBody'.
+2025-06-27 17:27:46.479 +05:30 [INF] Executed action UserService.Controllers.UserController.LoginUser (UserService) in 139.65ms
+2025-06-27 17:27:46.481 +05:30 [INF] Executed endpoint 'UserService.Controllers.UserController.LoginUser (UserService)'
+2025-06-27 17:27:46.482 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5172/api/User/login - 200 null application/json; charset=utf-8 157.27ms
+2025-06-27 17:31:11.286 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 17:31:11.464 +05:30 [INF] Now listening on: http://localhost:5172
+2025-06-27 17:31:11.545 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 17:31:11.547 +05:30 [INF] Hosting environment: Development
+2025-06-27 17:31:11.548 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\UserService
+2025-06-27 17:31:11.950 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/index.html - null null
+2025-06-27 17:31:12.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/index.html - 200 null text/html;charset=utf-8 189.6ms
+2025-06-27 17:31:12.167 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_vs/browserLink - null null
+2025-06-27 17:31:12.167 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 17:31:12.178 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.3987ms
+2025-06-27 17:31:12.199 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.4129ms
+2025-06-27 17:31:12.248 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - null null
+2025-06-27 17:31:12.257 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.2637ms

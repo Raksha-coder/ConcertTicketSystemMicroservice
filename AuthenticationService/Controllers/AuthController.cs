@@ -41,39 +41,5 @@ namespace AuthenticationService.Controllers
             return Unauthorized();
         }
 
-
-        [HttpPost("user-token")]
-        public IActionResult GetUserToken([FromBody] UserLoginRequest request)
-        {
-            //dummy user for now
-            if (request.Username == "testuser" && request.Password == "password123")
-            {
-                var claims = new[]
-                {
-            new Claim(ClaimTypes.Name, request.Username),
-            new Claim(ClaimTypes.Role, "User"), 
-            new Claim("user_id", Guid.NewGuid().ToString()) 
-        };
-
-                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-                var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-                var token = new JwtSecurityToken(
-                    issuer: _config["Jwt:Issuer"],
-                    audience: _config["Jwt:Audience"],
-                    claims: claims,
-                    expires: DateTime.UtcNow.AddMinutes(30),
-                    signingCredentials: creds);
-
-                return Ok(new
-                {
-                    AccessToken = new JwtSecurityTokenHandler().WriteToken(token),
-                    ExpiresIn = 1800
-                });
-            }
-
-            return Unauthorized();
-        }
-
     }
 }

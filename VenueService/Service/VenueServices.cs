@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using SharedLibrary.Token;
+using System;
 using VenueService.common;
 using VenueService.Dto;
 using VenueService.Model;
@@ -26,6 +27,9 @@ namespace VenueService.Service
                 Name = venueData.Name,
                 Location = venueData.Location,
                 Capacity = venueData.Capacity,
+                IsActive = true,
+                IsDeleted = false,
+                CreatedDate = DateTime.UtcNow
             };
 
             var result = await _venuerepository.AddVenueAsync(venue);
@@ -65,6 +69,23 @@ namespace VenueService.Service
             {
                 _logger.LogWarning("Failed to fetch events from EventService.");
                 return new ResponseBody(false, "Failed to fetch events from EventService.");
+            }
+
+        }
+
+
+
+        public async Task<ResponseBody> GetVenueList()
+        {
+            List<GetAllVenueDto> venueList = await _venuerepository.getVenueListAsync();
+            if (venueList.Any())
+            {
+                return new ResponseBody(true, "fetch venue successfully", venueList);
+            }
+            else
+            {
+                return new ResponseBody(false, "there is no record found");
+
             }
 
         }

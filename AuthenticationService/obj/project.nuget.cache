@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ELD+owZ++I=",
+  "dgSpecHash": "zQUMwcLZyZY=",
   "success": true,
-  "projectFilePath": "E:\\backup\\Backup_Files\\Microservice\\new folder vndfv\\ConcertTicketSystemMicroservice\\AuthenticationService\\AuthenticationService.csproj",
+  "projectFilePath": "E:\\backup\\Backup_Files\\Microservice\\Backend\\ConcertTicketSystemMicroservice\\AuthenticationService\\AuthenticationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rakshajaiswal\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\rakshajaiswal\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",

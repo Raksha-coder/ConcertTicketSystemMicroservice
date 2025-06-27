@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using VenueService.common;
 using VenueService.Data;
+using VenueService.Dto;
 using VenueService.Model;
 using VenueService.Service;
 
@@ -28,6 +29,22 @@ namespace VenueService.Repository
         public async Task<Venue?> GetVenue(Guid venueId)
         {
             return await _context.Venues.Where(ven => ven.Id == venueId).FirstOrDefaultAsync();
+        }
+
+        public async Task<List<GetAllVenueDto>> getVenueListAsync()
+        {
+            return await _context.Venues
+                   .Where(v => 
+                    v.IsActive &&
+                    !v.IsDeleted)
+                   .Select(v => new GetAllVenueDto
+                   {
+                       Id = v.Id,
+                       Name = v.Name,
+                       Location = v.Location,
+                       Capacity = v.Capacity
+                   })
+                   .ToListAsync();
         }
     }
 }

@@ -109,11 +109,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\backup\\Backup_Files\\Microservice\\new folder vndfv\\ConcertTicketSystemMicroservice\\YarpGateway\\YarpGateway.csproj",
+      "projectUniqueName": "E:\\backup\\Backup_Files\\Microservice\\Backend\\ConcertTicketSystemMicroservice\\YarpGateway\\YarpGateway.csproj",
       "projectName": "YarpGateway",
-      "projectPath": "E:\\backup\\Backup_Files\\Microservice\\new folder vndfv\\ConcertTicketSystemMicroservice\\YarpGateway\\YarpGateway.csproj",
+      "projectPath": "E:\\backup\\Backup_Files\\Microservice\\Backend\\ConcertTicketSystemMicroservice\\YarpGateway\\YarpGateway.csproj",
       "packagesPath": "C:\\Users\\rakshajaiswal\\.nuget\\packages\\",
-      "outputPath": "E:\\backup\\Backup_Files\\Microservice\\new folder vndfv\\ConcertTicketSystemMicroservice\\YarpGateway\\obj\\",
+      "outputPath": "E:\\backup\\Backup_Files\\Microservice\\Backend\\ConcertTicketSystemMicroservice\\YarpGateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

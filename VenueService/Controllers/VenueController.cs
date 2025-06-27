@@ -29,8 +29,6 @@ namespace VenueService.Controllers
             return Ok(result);
         }
 
-
-        [AllowAnonymous]
         [HttpGet("getVenueEventList")]
         public async Task<IActionResult> GetVenueEventList(Guid venueId)
         {
@@ -42,5 +40,13 @@ namespace VenueService.Controllers
             return Ok(result);
 
         }
+
+        [HttpGet("getVenueList")]
+        public async Task<IActionResult> GetVenueList()
+        {
+           
+            var result = await _venueservice.GetVenueList();
+            return Ok(result);
         }
+    }
 }

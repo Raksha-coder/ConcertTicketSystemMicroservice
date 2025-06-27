@@ -7,6 +7,7 @@ namespace VenueService.Service
     {
         Task<ResponseBody> CreateVenu(CreateVenueDto venueData);
         Task<ResponseBody> GetVenueEventList(Guid venueId);
+        Task<ResponseBody> GetVenueList();
 
     }
 }
