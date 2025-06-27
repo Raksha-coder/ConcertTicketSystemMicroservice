@@ -1175,3 +1175,16 @@ WHERE [v].[IsActive] = CAST(1 AS bit) AND [v].[IsDeleted] = CAST(0 AS bit)
 2025-06-27 17:33:36.900 +05:30 [INF] Executed action VenueService.Controllers.VenueController.GetVenueList (VenueService) in 6.8117ms
 2025-06-27 17:33:36.901 +05:30 [INF] Executed endpoint 'VenueService.Controllers.VenueController.GetVenueList (VenueService)'
 2025-06-27 17:33:36.902 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/api/Venue/getVenueList - 200 null application/json; charset=utf-8 14.5267ms
+2025-06-27 17:50:50.087 +05:30 [INF] User profile is available. Using 'C:\Users\rakshajaiswal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-27 17:50:50.329 +05:30 [INF] Now listening on: http://localhost:5035
+2025-06-27 17:50:51.211 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 17:50:51.219 +05:30 [INF] Hosting environment: Development
+2025-06-27 17:50:51.226 +05:30 [INF] Content root path: E:\backup\Backup_Files\Microservice\Backend\ConcertTicketSystemMicroservice\VenueService
+2025-06-27 17:50:51.711 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/index.html - null null
+2025-06-27 17:50:52.094 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/index.html - 200 null text/html;charset=utf-8 384.3957ms
+2025-06-27 17:50:52.141 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_vs/browserLink - null null
+2025-06-27 17:50:52.141 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-27 17:50:52.148 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.3183ms
+2025-06-27 17:50:52.181 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.8082ms
+2025-06-27 17:50:52.307 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - null null
+2025-06-27 17:50:52.315 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.9903ms
